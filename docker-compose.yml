@@ -1,0 +1,34 @@
+version: "3.9"
+
+services:
+
+  # ─── سرور Backend آزمایشی ───────────────────────────
+  backend:
+    build: .
+    container_name: waf_backend
+    command: python -m app.backend
+    expose:
+      - "5001"
+    networks:
+      - waf_network
+
+  # ─── WAF اصلی ────────────────────────────────────────
+  waf:
+    build: .
+    container_name: waf_main
+    ports:
+      - "5000:5000"       # WAF از بیرون قابل دسترسه
+    environment:
+      # ا Backend 
+      - WAF_BACKEND_URL=http://backend:5001
+      # - WAF_BACKEND_URL=https://your-real-website.com
+    depends_on:
+      - backend
+    networks:
+      - waf_network
+    volumes:
+      - ./waf.log:/app/waf.log   # لاگ‌ها روی سیستم شما ذخیره میشن
+
+networks:
+  waf_network:
+    driver: bridge

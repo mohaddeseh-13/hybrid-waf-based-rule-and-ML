@@ -1,0 +1,35 @@
+1. SQL Injection
+http://localhost:5000/?id=1%27%20OR%20%271%27=%271
+http://localhost:5000/?search=%27%29%20AND%20%28SELECT%20SUBSTRING%28@@version%2C1%2C1%29%29=%275
+http://localhost:5000/?id=1%27%20UNION%20SELECT%201,2,3--             
+http://localhost:5000/?q=%3Cimg%20src%3Dx%3E  ML
+http://localhost:5000/?q=%3Csvg%3E
+http://localhost:5000/?q=%3Ciframe%3E
+http://localhost:5000/?q=%3Cimg%20src%3Dx%20alt%3Donerror%3E
+2. XSS
+http://localhost:5000/?name=%3Cscript%3Ealert(1)%3C/script%3E
+http://localhost:5000/?q=%3Cimg%20src=x%20onerror=alert(1)%3E
+http://localhost:5000/?q=%3B%20whoami           ML
+http://localhost:5000/?q=%3Bwhoami%7Cls
+3. Path Traversal
+http://localhost:5000/?file=../../../../etc/passwd
+
+4. Command Injection
+http://localhost:5000/?q=%24%28whoami%29%3Bls
+5. LDAP Injection
+http://localhost:5000/?user=*)(uid=*
+http://localhost:5000/?q=%2A%29%28uid%3D%2A%29%29%28%7C%28uid%3D%2A
+6. SSRF
+http://localhost:5000/?q=http%3A%2F%2F127.0.0.1%2Flocalhost
+7. XXE
+http://localhost:5000/?q=%3C%21DOCTYPE%20foo%20%5B%3C%21ENTITY%20xxe%20SYSTEM%20%22file%3A%2F%2F%2Fetc%2Fpasswd%22%3E%5D%3E
+8.Open Redirect
+http://localhost:5000/?q=redirect%3Dhttps%3A%2F%2Fevil.com
+9. معمولی  False Positive
+
+این‌ها نباید حمله تشخیص داده شوند:
+
+http://localhost:5000/
+http://localhost:5000/?name=ali
+http://localhost:5000/?search=hello
+http://localhost:5000/?search=laptop
